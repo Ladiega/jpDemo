@@ -1,0 +1,35 @@
+.nav_global {
+    width: 1270px;
+    margin: 68px 87px ;
+    height: 177px;
+    /*border:2px solid coral;*/
+    background-color:none;
+}
+
+
+
+.nav_container >div{
+    display: flex;
+    padding: 10px 0;
+    align-items: baseline;
+    border:2px solid coral;
+    width: 1270px;
+    margin-top: 58.5px;
+
+}
+.jplogo {
+    border:2px solid coral;
+    margin-right: 1101px;
+}
+.instalogo{
+    border:2px solid coral;
+}
+.twilogo{
+    margin-right: 74.4px;
+    border:2px solid coral;
+
+}
+.hmemulogo{ 
+    
+    border:2px solid coral;
+}

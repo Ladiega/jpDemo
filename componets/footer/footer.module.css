@@ -1,0 +1,41 @@
+.footer_global{
+    height: 60px;
+    width: 1440px;
+    margin-top:3686px;
+    background-color:rgb(240, 194, 194);
+    display: flex;
+    align-items: center;
+    margin-right:85px;
+  
+
+}
+.footer_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 85px;
+
+}
+.instalogob{
+   
+   
+}
+.twlogob{
+    margin-top:4px;
+    
+
+}
+.jplogob{
+    margin-left:1166px ;
+    margin-top: 5px;
+    margin-bottom:7px;
+}
+.home{
+    margin-left: 3px;
+    font-style: Raleway;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14.09px;
+    margin-right:94px;
+    
+}

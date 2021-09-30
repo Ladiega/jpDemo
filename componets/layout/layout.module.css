@@ -1,0 +1,7 @@
+.layout_global{
+    display: flex;
+    flex-direction: column;
+    background-color:black;
+    width:1440px;
+    height:3748px;
+}

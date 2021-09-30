@@ -1,9 +1,24 @@
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family:  Raleway;
+  
+  width: 1440px;
+  height: 3748px;
+ 
+}
+
+
+html {
+  background-color:
+  #050507;
+  background-image: url(../public/img/jpbground.png); 
+ 
+  background-repeat: no-repeat;
+  background-position:820px 0;
+
 }
 
 a {
@@ -13,4 +28,6 @@ a {
 
 * {
   box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+  
 }

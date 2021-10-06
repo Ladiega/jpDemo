@@ -23,7 +23,7 @@ export default function Form(){
                 <textarea className={styles.textarea} name="msg" id="msg" cols="30" rows="10"></textarea>
               </li>
               <li className={styles.send_button}>
-                <button className={styles.button} type="submit">send! 
+                <button className={styles.button} type="submit">send! {' '}
                 <Image
                   src={polygon}
                   width = {13.89}

@@ -2,20 +2,24 @@
     position: absolute;
     display: flex;
     flex-direction: column;
-    width:1453px;
+    width: 1440px;
     height:3758px;
+    background-color:black;
 
 }
 .background1{
    
     position:absolute;
     margin-left:870px;
+  
+    
    
 }
+
 .background2{
     position: relative;    
     margin-top: 637px;
-    margin-left: -3450.36px;
+    margin-left: -3464.36px;
     width: 4904.31px;
     height: 3861.36px;
     -moz-border-radius: 50%;
@@ -40,7 +44,7 @@
 .background5{
     position:absolute;
      margin-top: 2150px;
-     margin-left: 1054px;
+     margin-left: 1040px;
      width: 400px; 
      height: 900px; 
      background: white;
@@ -48,8 +52,11 @@
 .background4{
      position:absolute;
      margin-top: 2840px;
-     width: 1453px; 
+     width: 1440px; 
      height: 848px; 
      background: black;
      
+}
+.background4_form{
+    
 }

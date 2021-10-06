@@ -1,10 +1,12 @@
 .main_home_global{
-    border:1px solid rgb(198, 244, 247);
-    margin-top:194.05px;
+  height: 700px;  
+  border:1px solid rgb(198, 244, 247);
+    margin-top:70px;
     margin-left: 85px;
     margin-right: 85px;
-     display:flex;
+    display:flex;
     flex-direction: column;
+    
   
   } 
  
@@ -14,7 +16,7 @@
   
   .ul{
     color:white;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 35px; 
     line-height: 41.09px;
     margin: 0;
@@ -42,6 +44,9 @@
   
   .button{
     margin-left:1142px;
+    color: white;
+    background: none;
+    border: none;
   
   }
   .line{

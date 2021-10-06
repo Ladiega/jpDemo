@@ -1,0 +1,20 @@
+.main_container2{
+    color:black;
+    width: 515px;
+    height: 170px;
+    font-size: 36px; 
+    margin-top: 260px;
+    margin-left: 3543px;
+    margin-right:85px;
+    border:1px solid springgreen;
+  }
+  .container2_h1{
+    font-weight: 600;
+    font-size: 36px;
+    
+  }
+  .container2_p{
+    width: 837px;
+    
+    border:1px solid springgreen;
+  }

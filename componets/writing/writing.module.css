@@ -1,0 +1,31 @@
+.main_container3{
+    width: 954px;
+    
+    color: white;
+    margin-top:108px;
+    margin-left:255px;
+    
+    border:1px solid yellow;
+    font-weight: 400; 
+    font-size: 20px;
+  }
+  .empanada_container{
+      margin-top: 80px;
+      margin-left: 85px;
+      margin-bottom: 95px;
+  }
+  .button_container >button{
+    width: 221px;
+    height: 42px;
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: 700;
+    background-color: white;
+    border: none;
+    
+  }
+  
+  .wcontainer_p{
+    font-weight: 200;
+   
+  }

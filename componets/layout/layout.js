@@ -1,17 +1,13 @@
-import Nav from '../navbar'
-import Footer from '../footer'
+import Background from '../background/background'
 import styles from '../layout/layout.module.css'
-import Form from '../form/form'
-
 
 export default function Layout({ children }){
     return (
         <div className={styles.layout_global}>
-            <Nav></Nav>
-            <main>{children}</main>
-            <Form></Form>      
-            <Footer></Footer>
             
+            <Background>
+                <main>{children}</main>         
+            </Background>
         </div>
     );
 }

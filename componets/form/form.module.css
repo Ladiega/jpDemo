@@ -1,0 +1,64 @@
+.main_home_global{
+    border:1px solid rgb(198, 244, 247);
+    margin-top:194.05px;
+    margin-left: 85px;
+    margin-right: 85px;
+     display:flex;
+    flex-direction: column;
+  
+  } 
+ 
+  
+  
+  
+  
+  .ul{
+    color:white;
+    font-weight: 700;
+    font-size: 35px; 
+    line-height: 41.09px;
+    margin: 0;
+    padding: 0;
+  }
+  .ul >li{
+    list-style:none;
+  
+  }
+  .li_name{
+    font-size:15px;
+    margin-top:60.19px;
+  }
+  .li_mail{
+    font-size:15px;
+    margin-top:68.52;
+  }
+  .li_msg{
+    font-size:15px;
+    margin-top:77.78px;
+  }
+  .textarea{
+    vertical-align: top;
+  }
+  
+  .button{
+    margin-left:1142px;
+  
+  }
+  .line{
+    margin-top:17.59px;
+    background-color: white;
+    width:41px;
+    height: 1px;
+    
+  }
+  
+  .text{
+    color:white;
+    margin-bottom:193.53px;
+    font-size:18px;
+    font-weight:700;
+    line-height:84.53px;
+  }
+  
+  
+  

@@ -1,52 +1,55 @@
 .background_container{
-    padding: 0;
-    margin: 0;
-    width: 1440px;
-    height:3748px;
-    font-style: Raleway;
-    background-color: black;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width:1453px;
+    height:3758px;
+
+}
+.background1{
+   
     position:absolute;
+    margin-left:870px;
+   
 }
-
-.jpimg_container ::after{
-    margin-left: 820px;
-    position:absolute;
-    
-
-}
-
-.jpphoto{
-    background-color: black;
-    opacity: 40;
-    
-
-
-
-}
-.wcircle {
-    width:
-    4904.31px ;
-    height: 
-    3861.36px;
+.background2{
+    position: relative;    
     margin-top: 637px;
-    margin-left:
-    2109.31px ;
+    margin-left: -3450.36px;
+    width: 4904.31px;
+    height: 3861.36px;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
-    background: #5cb85c;
+   
+    background-color: white;
+    
+   
 }
-.bcircle {
-    width: 100px;
-    height: 100px;
+.background3{
+    position:absolute;
+    width: 1280px;
+    height: 1280px;
+    margin-left: -176px;
+    margin-top: 1756px;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
-    background: rgb(82, 81, 81);
+    background: black;
 }
-.rectangle {
-    width: 250px; 
-    height: 100px; 
-    border: 3px solid #555;
-    background: rgb(73, 72, 72);
+.background5{
+    position:absolute;
+     margin-top: 2150px;
+     margin-left: 1054px;
+     width: 400px; 
+     height: 900px; 
+     background: white;
+}
+.background4{
+     position:absolute;
+     margin-top: 2840px;
+     width: 1453px; 
+     height: 848px; 
+     background: black;
+     
 }

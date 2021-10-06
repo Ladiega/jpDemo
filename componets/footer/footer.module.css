@@ -1,11 +1,11 @@
 .footer_global{
     height: 60px;
-    width: 1440px;
-    margin-top:3686px;
-    background-color:rgb(240, 194, 194);
+    width: 1454px;
+    margin-top:193.53px;
+    background-color:white;
     display: flex;
     align-items: center;
-    margin-right:85px;
+    
   
 
 }
@@ -13,10 +13,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 85px;
+    
 
 }
 .instalogob{
+    margin-left: 85px;
    
    
 }
@@ -36,6 +37,6 @@
     font-weight: 700;
     font-size: 12px;
     line-height: 14.09px;
-    margin-right:94px;
+    margin-right:85px;
     
 }

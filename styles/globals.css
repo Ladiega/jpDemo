@@ -4,22 +4,15 @@ body {
   padding: 0;
   margin: 0;
   font-family:  Raleway;
-  
   width: 1440px;
   height: 3748px;
  
 }
 
-
-html {
-  background-color:
-  #050507;
-  background-image: url(../public/img/jpbground.png); 
- 
-  background-repeat: no-repeat;
-  background-position:820px 0;
-
+html{
+  background-color: black;
 }
+
 
 a {
   color: inherit;

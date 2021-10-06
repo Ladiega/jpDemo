@@ -1,33 +1,42 @@
 import styles from '../styles/background.module.css'
-import Nav from '../componets/navbar'
-import Footer from '../componets/footer'
 import Image from 'next/image'
 import jpimg from '../public/img/jpbground.png'
+import Footer from '../componets/footer/index'
+import Nav from '../componets/navbar/index'
 
 
 
 export default function Background(){
     return(
-        <div className = {styles.background_container}>
-           
-            <div className = {styles.jpimg_container}>
-                <Image
-                 className = {styles.jpphoto}
-                 src = {jpimg}
+            <div className={styles.background_container}>
                 
-                />
-            </div>
-            <div className={styles.wcircle}> 
-            
-            </div>
-            <div className={styles.bcircle}> 
-            
-            </div>
-            <div className={styles.rectangle}>
+                <div className = {styles.background1}>
+                
+                    
+                        <Image
+                        className = {styles.jpphoto}
+                        src = {jpimg}
+                        
+                        />
+                </div>
+                <Nav></Nav>    
+                    
+                    <div className={styles.background2}> 
+                    
+                    </div>
+                    <div className={styles.background5}>
 
-            </div>
-            
+                    </div>
+                    <div className={styles.background3}> 
+                    
+                    </div>
+                    
+                    <div className={styles.background4}>
 
-        </div>
+                    </div>
+                    <Footer></Footer>
+
+                
+            </div>
     )
 }

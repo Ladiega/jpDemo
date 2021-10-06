@@ -1,9 +1,11 @@
 import Head from 'next/head'
+import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 import Layout from '../componets/layout/layout'
 import Image from 'next/image'
-import jpicon from '../public/img/jpicon.svg'
-import polygon from '../public/img/polygon.svg'
+import empanada from '../public/img/empanada.png'
+import triangleb from '../public/img/triangleb.svg'
+
 
 
 export default function Home() {
@@ -19,72 +21,84 @@ export default function Home() {
       </Head>
         
       <Layout>
+        
+        
         <main className={styles.main_container1}>
           <div className={styles.text1}>
-            <p> <b>I'm</b> Juan Pablo</p>
+            <p className={styles.text1_p}> <b>I'm</b> Juan Pablo</p>
           </div>
           <div className={styles.text2}>
-            <p>Buriticá</p>
+            <p className={styles.text2_p}>Buriticá</p>
           </div>
+          <div className={styles.circletext}></div> 
           <div>
             <p></p>
           </div>
           <div className={styles.text3}>
-            <p className={styles.test3_p}>VP of Eng @splice — I build effective distributed eng teams and latino/latam dev communities @colombia_dev, @quecharla, @jsconfco, @rubyconfco, @bogotaJS</p>
+            <p className={styles.test3_p}>VP of Eng @splice —<br/> I <b> build effective distributed eng teams and latino/latam dev communities</b> @colombia_dev, @quecharla, @jsconfco, @rubyconfco, @bogotaJS</p>
           </div>
-          <div></div>
-          <div></div>
+              
+        
+          <div className={styles.text4}>
+            <h1 className={styles.text4_h1}>Me</h1>
+            <p className={styles.text4_p}>I organized my first ever community conference in 2011 in Bogotá, Colombia, while living in NYC. I was thankful for the community-taught (never self-taught).</p>
+            <p><b>05</b> . 22 . 2020</p>
+            <p><b>Financial District,</b>  Manhattan</p>
+                        
+          </div>
+          
+        </main>
+        
+        
+        <main className={styles.main_container2}>
+          <div className={styles}>
+            <h1>Engineering</h1>
+          </div>
+          <div className={styles}>
+            <p>I organized my first ever community conference in 2011 in Bogotá, Colombia, while living in NYC. I was thankful for the community-taught (never self-taught).</p>
+            </div>
+          <div className={styles}>
+            <p>05.22.2020</p> 
+          </div>
+          <div className={styles}>
+            <p> <b>Financial District,</b> Manhattan</p>
+          </div>
+
+        </main>
+        <main className={styles.main_container3}>
+          <div className={styles.writing_container}>
+            <h1>Writing</h1>
+            <p>I build effective distributed eng teams and latino/latam dev communities</p>
+            <p>Announcing <br/><b>The Empanada Fund</b></p>
+            <Image  
+                 className={styles.empanadaimg}
+                 alt="empanada"
+                 src={empanada}           
+                 width={634.5}
+                 height={316.725}
+            />                               
+             <p className={styles.wcontainer_p}>TL;DR I’m announcing the creation of a new fund to sponsor community software conferences in Latin-America and provide scholarships for 🇺🇸/🇨🇦 based Latinx folks. So far we’ve raised almost $40k for our 2020 fund, 💵 tax-deductible donations received here (with employer match support).
+             <br/><b>
+               <Link href="/" >
+              Read more... 
+             </Link></b>
+            </p>
+          </div>
+          <div className={styles.button_container}>
+            <button className={styles.button} type="button">More article {' '}
+              <Image
+               className={styles.triangle_img}
+               src={triangleb}
+               width={19}
+               height={19}
+              />
+             
+            </button>
+          </div>
+
         </main>
 
-        <main className={styles.main_home_global}>
-          <div className={styles.main_container}>
-            <h1 className={styles.main_h1}></h1>
-            <form className={styles.form_container} action="">
-              <ul className={styles.ul} >Send me a message!
-                <li className={styles.li_name}>Name:
-                  <label htmlFor="name"></label>
-                  <input type="text" name="name" id="name"/>
-                </li>
-                <li className={styles.li_mail}>E-mail:
-                  <label htmlFor="mail"></label>
-                  <input type="email" name="mail" id="mail"/>
-                </li>
-                <li className={styles.li_msg}>Message:
-                  <label htmlFor="msg"></label>
-                  <textarea className={styles.textarea} name="msg" id="msg" cols="30" rows="10"></textarea>
-                </li>
-                <li className={styles.send_button}>
-                  <button className={styles.button} type="submit">send! 
-                  <Image
-                    src={polygon}
-                    width = {13.89}
-                    height = {15}
-                  />
-                  
-                  </button>
-                </li>
-              </ul>
-                <div className={styles.jp_logo}>
-                  <Image
-                    src={jpicon}
-                    width = {43}
-                    height = {38.89}
-                  />
-                </div>
-                <div className={styles.line}>
-                  
-                </div>
-                <div className={styles.text}>
-                  <p>
-                    j@buriti.ca
-                  </p>
-
-                </div>
-
-            </form>
-            
-          </div>          
-        </main>
+        
       </Layout>
 
 

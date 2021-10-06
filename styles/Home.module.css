@@ -8,13 +8,14 @@
   color: white;
 
 }
-.text1{
-  border: 2px solid rgb(218, 245, 164);
+.text1_p{
+  border: 2px solid rgb(164, 236, 245);
   margin: 0;
   padding: 0;
   width: 204px;
   height: 35px;
   font-size: 24px;
+  font-weight: 200;
   
 }
 .text1>b{
@@ -22,7 +23,6 @@
 }
 .text2>p{
   border: 2px solid rgb(243, 123, 123);
-  
   margin: 0;
   padding: 0;
   width: 299px;
@@ -31,86 +31,70 @@
   font-weight: 700;
   line-height: 84.53px;
 }
+.circletext{
+  margin: 0;
+  padding: 0;
+  width: 12px;
+  height: 12px;
+  margin-top:28px;   
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: white;
+}
 .text3{
+  border:1px solid blueviolet;
   width: 630px;
-  height: 215px;
+  font-weight: 200;
   font-size: 20px;
   
   font-style: normal;
   
 }
+.text3 >b{
+  font-weight: 400;
 
-.main_home_global{
-  background-color: rgb(198, 244, 247);
-  margin-top:3626px;
-
-} 
-.main_container{
-    width: 380px;
-    margin-left:85px;
-    color:rgb(12, 12, 12);
-   
-  }
-
-
-
-
-.form_container{  
-  margin-right: 90px;
-  display:flex;
-  width: 1355px;
-  height: 744px;
-  flex-direction: column;
- 
-  background-color:palevioletred;
-     
 }
-.ul{
-  color:white;
+.text4_p{
+  width:840px;
+  height:97px;
+  font-size: 25px;
+  font-weight: 200;
+  
+}
+.main_container2{
+  color: black;
+  width: 837px;
+  height: 170px;
+  margin-top: 523px;
+  margin-left: 85px;
+  margin-right:85px;
+  border:1px solid springgreen;
+}
+
+.main_container3{
+  width: 837px;
+
+  color: white;
+  margin-top:338px;
+  margin-left:85px;
+  margin-right:85px;
+  border:1px solid yellow;
+  font-weight: 400; 
+  font-size: 20px;
+}
+.button_container >button{
+  width: 221px;
+  height: 42px;
+  
+  font-size: 24px;
   font-weight: 700;
-  font-size: 35px; 
-  line-height: 41.09px;
-  margin: 0;
-  padding: 0;
-}
-.ul >li{
-  list-style:none;
-
-}
-.li_name{
-  font-size:15px;
-  margin-top:60.19px;
-}
-.li_mail{
-  font-size:15px;
-  margin-top:68.52;
-}
-.li_msg{
-  font-size:15px;
-  margin-top:77.78px;
-}
-.textarea{
-  vertical-align: top;
-}
-
-.button{
-  margin-left:1142px;
-
-}
-.line{
-  margin-top:17.59px;
   background-color: white;
-  width:41px;
-  height: 1px;
+  border: none;
   
 }
 
-.text{
-  color:white;
-  margin-bottom:193.53px;
-  font-size:18px;
-  font-weight:700;
-  line-height:84.53px;
+.wcontainer_p{
+  font-weight: 200;
+ 
 }
-
-

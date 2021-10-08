@@ -18,7 +18,7 @@
 
 .background2{
     position: relative;    
-    margin-top: 637px;
+    margin-top: 537px;
     margin-left: -3464.36px;
     width: 4904.31px;
     height: 3861.36px;
@@ -51,12 +51,9 @@
 }
 .background4{
      position:absolute;
-     margin-top: 2840px;
+     margin-top: 2840px;     
      width: 1440px; 
      height: 848px; 
      background: black;
      
-}
-.background4_form{
-    
 }

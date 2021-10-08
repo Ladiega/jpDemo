@@ -49,7 +49,7 @@ export default function Background(){
 
                     </div>
                   
-                    <Footer></Footer>
+                    <Footer className={styles.footer_container}></Footer>
 
                 
             </div>

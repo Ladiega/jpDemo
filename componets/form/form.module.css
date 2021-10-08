@@ -1,18 +1,15 @@
 .main_home_global{
-  height: 700px;  
+  height: 600px;  
   border:1px solid rgb(198, 244, 247);
     margin-top:70px;
     margin-left: 85px;
     margin-right: 85px;
     display:flex;
     flex-direction: column;
-    
-  
+    /*border:2px solid yellow;*/
+   
   } 
- 
-  
-  
-  
+   
   
   .ul{
     color:white;
@@ -26,13 +23,40 @@
     list-style:none;
   
   }
+  .li_inputs{
+    list-style: none;
+    text-indent: 5px;
+
+  }
   .li_name{
     font-size:15px;
     margin-top:60.19px;
   }
+  .name_input{
+    background-color:black;
+    border:none;
+    color: white;
+    border-bottom: 1px solid white;
+    vertical-align: top;
+    display : block;  
+    width   : 100%;
+    overflow: auto;
+  }
   .li_mail{
+    margin-top:30px;
     font-size:15px;
     margin-top:68.52;
+  }
+  .mail_input{
+    background-color:black;
+    border:none;
+    border-bottom: 1px solid white;
+    color: white;
+    vertical-align: top;
+    display : block;  
+    width   : 100%;
+    overflow: auto;
+
   }
   .li_msg{
     font-size:15px;
@@ -40,14 +64,32 @@
   }
   .textarea{
     vertical-align: top;
+    display : block;
+    background-color: black;
+    color: white;
+    border:1px solid white;
+  
+    padding : 10px;
+    width   : 100%;
+    height  : 90%;
+   
+
   }
   
   .button{
     margin-left:1142px;
     color: white;
+    border-bottom: 2px solid white;
+    margin-bottom: 60px;
     background: none;
     border: none;
   
+  }
+  .form_footer{
+    position: absolute;
+    /*border:2px solid yellow;*/
+    margin-top: -30px;
+    height: 120px;
   }
   .line{
     margin-top:17.59px;
@@ -60,9 +102,12 @@
   .text{
     color:white;
     margin-bottom:193.53px;
-    font-size:18px;
-    font-weight:700;
+    font-size:21px;
+    font-weight:600;
     line-height:84.53px;
+  }
+  .text_p{
+    margin-top: -10px;
   }
   
   

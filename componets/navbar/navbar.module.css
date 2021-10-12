@@ -26,20 +26,14 @@
     margin-left: 68.108%;
    
 }
-.instalogo{
-    width:1.125rem ;
-    height:1.125rem ;
-}
+
+
 .twilogo_container{
     position: absolute;
     margin-left:73.784% ;
 
 }
-.twilogo{
-    width:1.25rem ;
-    height:1.25rem  ;
 
-}
 .hmenulogo_container{
     
     position: absolute;
@@ -50,7 +44,7 @@
     border: none;
 }
 
-@media(min-width:369px){
+@media(min-width:376px){
     .nav_container{
     
         margin-top: 5.889%;

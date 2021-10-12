@@ -15,11 +15,14 @@
 .jplogo_container{
     position: absolute;
     margin-left: 5.676%;
-
+  
 }
 .jplogo{
     width:1.5rem;
     height: 1.25rem;
+   
+    
+    
 }
 .instalogo_container{
     position: absolute;

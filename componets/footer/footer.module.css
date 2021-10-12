@@ -39,3 +39,8 @@
     margin-right:85px;
     
 }
+@media(max-width:375px){
+    .footer_global{
+      width: 370px;
+      }
+    }

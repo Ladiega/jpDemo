@@ -99,3 +99,8 @@
     font-weight: 200;
    
   }
+  @media(max-width:375px){
+    .main_container1{
+      width: 370px;
+    }
+  }

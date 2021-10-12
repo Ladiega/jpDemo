@@ -57,3 +57,72 @@
      background: black;
      
 }
+
+
+@media(max-width:375px){
+    .background_container {
+      display: flex;
+      flex-direction: column;
+      width: 375px;
+      height: 2705px;
+      background-color: palevioletred;
+      
+     }
+     .background1{
+   
+        position:relative;
+        margin-top: -50px;
+        margin-left:21px;
+
+      
+    }
+    .jp_photo{
+        position: absolute;
+        background-color:cornflowerblue;
+        
+    }
+
+    .background2{
+          
+        margin-top: -1154px;
+        margin-left: -1178px;
+        width: 1836px;
+        height: 1669px;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+       
+        background-color: rgb(248, 213, 213);
+        
+       
+    }
+    .background3{
+        position:absolute;
+        width: 80px;
+        height: 80px;
+        margin-left: 21px;
+        margin-top: 175px;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        background: black;
+    }
+    .background5{
+        position:absolute;
+         margin-top: 2150px;
+         margin-left: 21px;
+         width: 40px; 
+         height: 90px; 
+         background: white;
+    }
+    .background4{
+         position:absolute;
+         margin-top: 2840px;     
+         width: 370px; 
+         height: 80px; 
+         background: black;
+         
+    }
+
+    
+}

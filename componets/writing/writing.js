@@ -15,7 +15,7 @@ export default function Writing(){
             <p>Announcing <br/><b>The Empanada Fund</b></p>
             <div className={styles.empanada_container}>
             <Image  
-                 className={styles.empanadaimg}
+                 className={styles.empanada_img}
                  alt="empanada"
                  src={empanada}           
                  width={634.5}

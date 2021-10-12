@@ -29,3 +29,55 @@
     font-weight: 200;
    
   }
+  @media(max-width:375px){
+    .main_container3{
+      width: 370px;
+      height: 2709px;
+      margin-left: 0px;
+     
+     height: 30px;
+        border:2px solid coral;
+        background-color:none;
+        
+    
+      }
+    }
+/*
+
+  .main_container3{
+    width: 375px;
+    
+    color: white;
+    margin-top:108px;
+    margin-left:21px;
+    background-color: rgb(222, 135, 222);
+    border:1px solid rgb(9, 255, 0);
+    font-weight: 400; 
+    font-size: 20px;
+  }
+  .empanada_container{
+      width: 80px ;
+      margin-top: 80px;
+      margin-left: 21px;
+      margin-bottom: 95px;
+  }
+  .empanada_img{
+    width: 80px;
+  }
+  .button_container >button{
+    width: 221px;
+    height: 42px;
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: 700;
+    background-color: white;
+    border: none;
+    
+  }
+  
+  .wcontainer_p{
+    font-weight: 200;
+   
+  }
+
+*/

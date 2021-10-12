@@ -50,63 +50,42 @@
     border: none;
 }
 
-@media(min-width:369px){
-    .nav_container{
+@media (min-width:1440){
     
-        margin-top: 5.889%;
-        border:2px solid rgb(255, 149, 27);
-        
-        }
-        .jplogo_container{
-           
-            margin-left: 9.615%;
-        
-        }
-       
-        .instalogo_container{
-          
-            margin-left: 74.279%;
-           
-        }
-      
-        .twilogo_container{
-           
-            margin-left:77.404% ;
-        
-        }
-        
-        .hmenulogo_container{
-           
-            margin-left:86.346% ;
-        }
-       
-
-
-
-}
-
-@media(min-width:1439px){
-    .nav_container{
     
-    margin-top: 4.722%;
-    border:2px solid rgb(236, 161, 177);
+   
+    .nav_container{
+        display: flex;
+        align-items: center;
+        margin-top:8.919% ;
+        
+        padding: 1%;
+        position: relative;
+    
     
     }
     .jplogo_container{
-       
-        margin-left: 6.042%;
+        position: absolute;
+        margin-left: 5.676%;
+        background-color: blueviolet;
     
     }
-   
+    .jplogo{
+        width:1.5rem;
+        height: 1.25rem;
+    }
     .instalogo_container{
-      
-        margin-left: 84.931%;
+        position: absolute;
+        margin-left: 68.108%;
        
     }
-  
+    .instalogo{
+        width:1.125rem ;
+        height:1.125rem ;
+    }
     .twilogo_container{
-       
-        margin-left:86.736% ;
+        position: absolute;
+        margin-left:73.784% ;
     
     }
     .twilogo{
@@ -115,12 +94,13 @@
     
     }
     .hmenulogo_container{
-       
-        margin-left:91.903% ;
+        
+        position: absolute;
+        margin-left:88.108% ;
     }
-   
-
-
-
-
+    .hmenu_button{
+        background: none;
+        border: none;
+    }
+    
 }

@@ -18,3 +18,25 @@
     
     border:1px solid springgreen;
   }
+  @media(max-width:375px){
+    .main_container2{
+      color:black;
+      width: 375px;
+      height: 70px;
+      font-size: 36px; 
+      margin-top: 60px;
+      margin-left: 21px;
+    
+      border:1px solid springgreen;
+      }
+      .container2_h1{
+        font-weight: 60;
+        font-size: 13px;
+        
+      }
+      .container2_p{
+        width: 37px;
+        
+        border:1px solid springgreen;
+      }
+    }

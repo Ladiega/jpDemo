@@ -21,7 +21,7 @@ export default function Background(){
                 
                     
                         <Image
-                        className = {styles.jpphoto}
+                        className = {styles.jp_photo}
                         src = {jpimg}
                         
                         />

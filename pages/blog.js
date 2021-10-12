@@ -1,13 +1,14 @@
-import styles from '../navbar/navbar.module.css'
+import styles from '../styles/blog.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
+import Nav from '../componets/navbar/index'
 
-import jplogo from '../../public/img/jpicon.svg'
-import instalogo from '../../public/img/instaicon.svg'
-import twilogo from '../../public/img/twicon.svg'
-import hmenulogo from '../../public/img/hmenu.svg'
+import jplogo from '../public/img/jpicon.svg'
+import instalogo from '../public/img/instaicon.svg'
+import twilogo from '../public/img/twicon.svg'
+import hmenulogo from '../public/img/hmenu.svg'
 
-export default function Nav(){
+export default function Blog(){
     return(
         <div className={styles.global_container}>
             <nav className={styles.nav_container}>
@@ -61,6 +62,7 @@ export default function Nav(){
                     
 
             </nav>
+            <Nav/>
         </div>
     )
 }

@@ -1,0 +1,94 @@
+.global_container{
+    position:relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+   
+  
+    height: 2709px;
+   
+}
+
+.background_1{
+    position:absolute;
+    margin-left:0px ;
+    margin-top: -11%;
+    z-index: 1;
+    width: 100vw;
+}
+.buritica_img{
+    position: absolute;
+    background-color: black;
+    
+}
+.background_1nav{
+    position: absolute;
+    margin-top: 13%;
+    background-color: cyan;
+}
+.background_2{
+    position: absolute;    
+    margin-top: 97%;
+    margin-left:-260%;
+    width: 104.313rem;
+    height:114.75rem;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+   
+    background-color: white;
+    z-index: 2;
+   
+}
+.background_3{
+    position: absolute;
+    width: 518px;
+    height:535px;
+    margin-top: 43.7rem;
+    margin-left: -4.938rem;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background-color: cadetblue;
+    z-index: 4;
+    }
+    .background_4{
+     position:absolute;
+     margin-top:70rem;
+  
+     width: 2343.75%; 
+     height: 56.875rem; 
+     background: rgb(236, 199, 144);
+     z-index: 3;
+    }
+    .background_5{
+        position:absolute;
+        margin-top:126.25rem;
+     
+        width: 2343.75%; 
+        height: 4118%; 
+        background: rgb(144, 236, 228);
+        z-index: 5;
+
+    }
+
+
+
+
+    
+@media(min-width:376px){
+    .background_2{
+        background-color: rgb(248, 154, 154);
+    
+    }
+    
+    .background_3{
+        background-color: cornflowerblue;
+    }
+    .background_4{
+        background-color: crimson;
+    }
+    .background_5{
+        background-color: darkmagenta;
+    }
+}

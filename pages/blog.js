@@ -2,6 +2,7 @@ import styles from '../styles/blog.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
 import Nav from '../componets/navbar/index'
+import Footer from '../componets/footer/index'
 
 import jplogo from '../public/img/jpicon.svg'
 import instalogo from '../public/img/instaicon.svg'
@@ -63,6 +64,7 @@ export default function Blog(){
 
             </nav>
             <Nav/>
+            <Footer/>
         </div>
     )
 }

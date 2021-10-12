@@ -1,55 +1,62 @@
 import styles from '../footer/footer.module.css'
-import Link from 'next/link'
 import Image from 'next/image'
-import jplogob from '../../public/img/jplogob.png'
-import instalogob from '../../public/img/instaiconb.svg'
-import twlogob from '../../public/img/twlogob.png'
+import Link from 'next/link'
 
-export default function Footer (){
+import jplogo from '../../public/img/jplogob.png'
+import instalogo from '../../public/img/instaiconb.svg'
+import twilogo from '../../public/img/twlogob.png'
+
+
+export default function Footer(){
     return(
-        <div className = {styles.footer_global}>
-            
-            <footer className={styles.footer_container}>
-                    <div className={styles.instalogob}>
-                        <Image
-                            className={styles.instaimg}
-                            src={instalogob}
-                            width={35}
-                            height={30}
-
-                        />
-
-                    </div>
-                    <div className={styles.twlogob}>
+        <div className={styles.global_container}>
+            <nav className={styles.footer_container}>
+                <div className={styles.jplogo_container} >
+                   <Link href="/">
+                   <a >
                     <Image
-                            className={styles.twimg}
-                            src={twlogob}
-                            width={40}
-                            height={40}
-
-                        />
-
-
+                    className={styles.jplogo}
+                    src={jplogo}
+                    width={24}
+                    height={20}
+                    />
+                    </a>
+                    </Link>
                     </div>
-                    <div className={styles.jplogob}>
+                    <div className={styles.instalogo_container}>
+                    <Link href="https://www.instagram.com/buritica/?hl=es">
+                    <a >
                     <Image
-                            className={styles.jpimg}
-                            src={jplogob}
-                            width={54}
-                            height={48}
-
-                        />
-
-
+                    className={styles.instalogo}
+                    src={instalogo}
+                    width={18}
+                    height={18}
+                    />
+                    </a>
+                    </Link>
                     </div>
-                    <div className={styles.home}>
+                    
+                    <div className={styles.twilogo_container}>
+                   <Link href="https://twitter.com/buritica?lang=es">
+                   <a >
+                    <Image
+                    className={styles.twilogo}
+                    src={twilogo}
+                    width={20}
+                    height={20}
+                    />
+                    </a>
+                    </Link>
+                    </div>
+                    <div className={styles.home_container}>
                         <Link href="/">
-                          <a >Home</a>
+                            <a >Home</a>
                         </Link>
-                        
+                    
                     </div>
-            </footer>
+                    
 
+            </nav>
         </div>
-    );
+    )
 }

@@ -1,46 +1,117 @@
-.footer_global{
-    height: 60px;
-    width: 1440px;
-    background-color:white;
-    display: flex;
-    align-items: center;
-    
+.global_container{
   
-
+    background-color: white;
+    
 }
 .footer_container{
     display: flex;
-    justify-content: center;
     align-items: center;
-    
+    margin-top:710.4% ;
+    height: 12%;
+    padding: 5.333% 0 5.333% 0;
+    position: relative;
+
 
 }
-.instalogob{
-    margin-left: 85px;
-   
-   
-}
-.twlogob{
-    margin-top:4px;
-    
+.jplogo_container{
+    position: absolute;
+    margin-left: 78.133%;
 
 }
-.jplogob{
-    margin-left:1166px ;
-    margin-top: 5px;
-    margin-bottom:7px;
+
+
+.instalogo_container{
+    position: absolute;
+    margin-left: 5.6%;
+   
 }
-.home{
-    margin-left: 3px;
-    font-style: Raleway;
+
+.twilogo_container{
+    position: absolute;
+    margin-left:10.4% ;
+
+}
+
+
+
+.home_container{
+    position: absolute;
+    margin-left:84.8% ;
+    font-size: 0.75rem;
     font-weight: 700;
-    font-size: 12px;
-    line-height: 14.09px;
-    margin-right:85px;
-    
 }
-@media(max-width:375px){
-    .footer_global{
-      width: 370px;
-      }
+
+
+@media(min-width:369px){
+    .footer_container{
+        
+        margin-top:477.885;
+        height: 12%;
+        padding: 5.333% 0 5.333% 0;
+        position: relative;
+    
+    
     }
+        .jplogo_container{
+           
+            margin-left: 81.37%;
+        
+        }
+       
+        .instalogo_container{
+          
+            margin-left: 9.976%;
+           
+        }
+      
+        .twilogo_container{
+           
+            margin-left:12.26% ;
+        
+        }
+        
+        .home_container{
+           
+            margin-left:84.976% ;
+        }
+       
+
+
+
+}
+
+@media(min-width:1439px){
+    .footer_container{
+    height: 10%;
+    margin-top: 100%;
+    border:2px solid rgb(236, 161, 177);
+    padding: 2.167 0 2.167 0;
+    }
+    .jplogo_container{
+       
+        margin-left: 76.25%;
+    
+    }
+   
+    .instalogo_container{
+      
+        margin-left: 5.903%;
+       
+    }
+  
+    .twilogo_container{
+       
+        margin-left:8.472% ;
+    
+    }
+   
+    .home_container{
+       
+        margin-left:80.208% ;
+    }
+   
+
+
+
+
+}

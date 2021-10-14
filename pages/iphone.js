@@ -22,14 +22,15 @@ export default function Iphone(){
             <div className={styles.background_3}></div>  
 
             <div className={styles.background_5}></div>
+            <div className={styles.background_6}></div>
 
-            <div className={styles.background_6}>
+            <div className={styles.background_7}>
             <Nav 
             className={styles.nav}
             />              
             </div>
             
-            <div className={styles.background_7}>
+            <div className={styles.background_8}>
                 <Footer
                 className={styles.footer}
                 />

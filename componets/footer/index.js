@@ -44,6 +44,7 @@ export default function Footer(){
                     src={twilogo}
                     width={20}
                     height={20}
+                    objectFit="cover"
                     />
                     </a>
                     </Link>

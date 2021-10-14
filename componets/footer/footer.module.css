@@ -45,7 +45,7 @@
 @media(min-width:376px){
     .footer_container{
         
-        margin-top:477.885;
+        margin-top:0;
         height: 12%;
         padding: 5.333% 0 5.333% 0;
         position: relative;
@@ -83,7 +83,7 @@
 @media(min-width:1439px){
     .footer_container{
     height: 10%;
-    margin-top:211.875%;
+  
     border:2px solid rgb(236, 161, 177);
     padding: 2.167 0 2.167 0;
     }

@@ -1,21 +1,23 @@
 .main_container1{
-    position: absolute;
+    
     border: 2px solid rgb(252, 210, 148);
-    margin-left:85px;
-    margin-right: 85px;
-    margin-top:40px;
+    margin-left:5.815%;
+    
+    margin-top:33.975%;
     display: flex;
     flex-direction:column;
     color: white;
+   
   
   }
+  
   .text1_p{
     border: 2px solid rgb(164, 236, 245);
     margin: 0;
     padding: 0;
-    width: 204px;
-    height: 35px;
-    font-size: 24px;
+    
+    
+    font-size: 100%;
     font-weight: 200;
     
   }
@@ -24,20 +26,19 @@
   }
   .text2>p{
     border: 2px solid rgb(243, 123, 123);
-    margin: 0;
-    padding: 0;
-    width: 299px;
-    height: 86px;
-    font-size: 72px;
+    margin-top: -0.533%;
+    margin-left: -1.088%;
+    padding: 0;      
+    font-size: 300%;
     font-weight: 700;
-    line-height: 84.53px;
+   
   }
   .circletext{
     margin: 0;
     padding: 0;
-    width: 12px;
-    height: 12px;
-    margin-top:28px;   
+    width: 0.5rem;
+    height: 0.5rem;
+    margin-top:-2.813rem;   
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
@@ -45,11 +46,11 @@
   }
   .text3{
     border:1px solid blueviolet;
-    margin-bottom: 30px;
-    width: 630px;
+    width: 43.2%;
+    margin-top: -5%;
     font-weight: 200;
-    font-size: 20px;
-    font-style: normal;
+    font-size: 13px;
+    
     
   }
   .text3 >b{
@@ -57,6 +58,7 @@
   
   }
   .text4_p{
+    display: none;
     width:840px;
     height:97px;
     font-size: 25px;
@@ -99,8 +101,10 @@
     font-weight: 200;
    
   }
+  /*
   @media(max-width:375px){
     .main_container1{
       width: 370px;
     }
   }
+  */

@@ -14,7 +14,7 @@ export default function Bio(){
             <p></p>
           </div>
           <div className={styles.text3}>
-            <p className={styles.test3_p}>VP of Eng @splice —<br/> I <b> build effective distributed eng teams and latino/latam dev communities</b> @colombia_dev, @quecharla, @jsconfco, @rubyconfco, @bogotaJS</p>
+            <p className={styles.test3_p}>VP of Eng @splice —<br/> I <b> build effective<br/>  distributedeng teams <br/>  and latino/latam dev communities</b> @colombia_dev, @quecharla, @jsconfco, @rubyconfco, @bogotaJS</p>
           </div>
               
         

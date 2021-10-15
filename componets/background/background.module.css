@@ -1,128 +1,302 @@
-.background_container{
-    position: absolute;
+/*iphone 375px */
+.global_container{
+    position:relative;
+    overflow: hidden;
     display: flex;
     flex-direction: column;
-    width: 1440px;
-    height:3758px;
-    background-color:black;
-
+      
 }
-.background1{
-   
+
+.background_1{
     position:absolute;
-    margin-left:870px;
-  
+    margin-left:0px ;
+    margin-top: -11%;
+    max-width: 100%;
+    background-color: black;
+    z-index: 1; 
+}
+.buritica_img{
+    position: absolute;
     
-   
+}
+.background_2{
+    position:absolute;
+    z-index: 2;
 }
 
-.background2{
-    position: relative;    
-    margin-top: 537px;
-    margin-left: -3464.36px;
-    width: 4904.31px;
-    height: 3861.36px;
+.background_3{
+    position: absolute;    
+    margin-top: 105%;
+    margin-left:-260%;
+    width: 500.081%;
+    height:120.216%;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
    
     background-color: white;
-    
+    z-index: 3;
    
 }
-.background3{
-    position:absolute;
-    width: 1280px;
-    height: 1280px;
-    margin-left: -176px;
-    margin-top: 1756px;
+
+.background_4{
+    position: absolute;
+    width: 140%;
+    height:20.7%;
+    margin-top: 198%;
+    margin-left: -20%;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
-    background: black;
-}
-.background5{
-    position:absolute;
-     margin-top: 2150px;
-     margin-left: 1040px;
-     width: 400px; 
-     height: 900px; 
-     background: white;
-}
-.background4{
+    background-color: cadetblue;
+    z-index: 5;
+    }
+
+
+    .background_5{
      position:absolute;
-     margin-top: 2840px;     
-     width: 1440px; 
-     height: 848px; 
-     background: black;
+     margin-top:300.667%;
+  
+     width: 100%; 
+     height: 30%; 
+     background: rgb(248, 185, 90);
+     z-index: 4;
+    }
+    
+    .background_6{
+        position:absolute;
+        margin-top:470%;
      
+        width: 100%; 
+        height: 28%; 
+        background: rgb(155, 236, 144);
+        z-index: 6;
+
+    }
+    
+    
+    .background_7{
+        position:absolute;
+        margin-top:-5%;
+        width: 100%; 
+        background: none;
+        z-index: 7;
+
+    }
+    .background_8{
+        margin-top:658.4% ;
+        width: 100%;
+        height: 2%;
+        border:2px solid cornflowerblue;
+        z-index: 8;
+    }
+    
+
+
+
+/*ipad responsive 376 px until 832px */
+    
+@media(min-width:376px){
+    .background_1{
+        background-color: cyan;
+        margin-left:-0% ;
+        margin-top: -0.5%;
+        
+       
+      
+    }
+    .buritica_img{
+        width:100% ;
+        
+    }
+   
+  
+
+    .background_2{
+        position:absolute;
+      
+        z-index: 2;
+    }
+     
+    .background_3{
+         
+        margin-top: 120%;
+        margin-left:-270%;
+        width: 510.081%;
+        height:130.216%;
+       
+        background-color: rgb(211, 100, 100);
+       
+       
+    }
+    
+    .background_4{
+        
+        width: 112%;
+        height:16.5%;
+        margin-top: 197%;
+        margin-left: -5.1%;
+     
+        background-color: rgb(95, 112, 160);
+       
+        }
+    
+    
+        .background_5{
+         margin-top:260%;
+         width: 100%; 
+         height: 130%; 
+         background: rgb(185, 236, 144);
+        }
+        
+        .background_6{
+            margin-top:30.889;
+            width: 100%; 
+            height: 70%;
+            background-color:rgb(225, 100, 237);
+            
+        }
+        
+        
+        
+    
+    
+}
+/*brake point*/
+@media(min-width:588px){
+    .background_1{
+       
+        margin-left: 20vw;
+        background-color: rgb(245, 243, 148);
+
+    }
+    .buritica_img{
+        width: 40%;
+    }
+
+    .background_3{
+         
+        margin-top: 90%;
+        margin-left:-270%;
+        width: 510.081%;
+        height:130.216%;
+       
+        background-color: rgb(211, 100, 100);
+       
+       
+    }
+    .background_4{
+        
+        width: 112%;
+        height:16.5%;
+        margin-top: 170%;
+        margin-left: -5.1%;
+     
+        background-color: rgb(95, 112, 160);
+       
+        }
+        .background_5{
+            margin-top:240%;
+            width: 100%; 
+            height: 130%; 
+            background: rgb(185, 236, 144);
+           }
 }
 
+@media(min-width:745px){
 
-@media(max-width:375px){
-    .background_container {
-      display: flex;
-      flex-direction: column;
-      width: 375px;
-      height: 2705px;
-      background-color: palevioletred;
-      
-     }
-     .background1{
-   
-        position:relative;
-        margin-top: -50px;
-        margin-left:21px;
-
-      
-    }
-    .jp_photo{
-        position: absolute;
-        background-color:cornflowerblue;
-        
-    }
-
-    .background2{
-          
-        margin-top: -1154px;
-        margin-left: -1178px;
-        width: 1836px;
-        height: 1669px;
-        -moz-border-radius: 50%;
-        -webkit-border-radius: 50%;
-        border-radius: 50%;
+    .background_1{
        
-        background-color: rgb(248, 213, 213);
-        
-       
+        margin-left: 60%;
+        background-color: rgb(245, 203, 148);
+
     }
-    .background3{
-        position:absolute;
-        width: 80px;
-        height: 80px;
-        margin-left: 21px;
-        margin-top: 175px;
-        -moz-border-radius: 50%;
-        -webkit-border-radius: 50%;
-        border-radius: 50%;
-        background: black;
+    .buritica_img{
+        max-width: 100%;
     }
-    .background5{
-        position:absolute;
-         margin-top: 2150px;
-         margin-left: 21px;
-         width: 40px; 
-         height: 90px; 
-         background: white;
-    }
-    .background4{
-         position:absolute;
-         margin-top: 2840px;     
-         width: 370px; 
-         height: 80px; 
-         background: black;
+    .background_3{
          
+        margin-top: 40%;
+        margin-left:-270%;
+        width: 510.081%;
+        height:130.216%;
+       
+        background-color: rgb(211, 100, 100);
+       
+       
+    }
+    .background_4{
+        
+        width: 112%;
+        height:16.5%;
+        margin-top: 110%;
+        margin-left: -5.1%;
+     
+        background-color: rgb(95, 112, 160);
+       
+        }
+        .background_5{
+            margin-top:180%;
+            width: 100%; 
+            height: 130%; 
+            background: rgb(185, 236, 144);
+           }
+}
+
+@media(min-width:1439px){
+    .background_1{
+        margin-left: 58.59%;
+        background-color: crimson;
+    }
+    
+    .background_2{
+        margin-top: 10%;
+        background-color: rgb(255, 44, 44);
+    
+    }
+    
+    
+    .background_3{
+        margin-top: 60%;
+        background-color: rgb(194, 100, 237);
+        
+       
+        
+        width: 225.4%;
+        height:32%;
+        margin-top: 63%;
+        margin-left: -122%;
+       
+        
+    } 
+    
+    .background_4{
+        width: 88.889%;
+        height:13% ;
+        margin-top: 126%;
+        margin-left: -17%;
+        background-color: rgb(37, 220, 20);
     }
 
     
+    .background_5{
+        height: 12%;
+        background-color: rgb(118, 139, 0);
+    }
+    .background_6{
+        display: none;
+         background-color: coral;
+        /*margin-top: 277%;
+       
+        height: 10%;*/
+
+        
+    }
+    .background_7{
+        margin-top: 3.5%;
+        border: 2px solid rgb(237, 216, 100);
+    }
+    .background_8{
+        
+    }
 }

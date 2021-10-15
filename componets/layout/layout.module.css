@@ -1,7 +1,3 @@
 .layout_global{
-    display: flex;
-    flex-direction: column;
-    background: no-repeat url(../../public/img/background.png);
-    width:1440px;
-    height:3748px;
+   
 }

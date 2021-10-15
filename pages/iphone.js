@@ -1,8 +1,12 @@
 import styles from '../styles/iphone.module.css'
 import Image from 'next/image'
+
 import jpimg from '../public/img/jpbground.png'
+
 import Nav from '../componets/navbar/index'
 import Footer from '../componets/footer/index'
+import Bio from '../componets/bio/bio'
+import Bio2 from '../componets/bio2/index'
 
 export default function Iphone(){
     return(
@@ -15,14 +19,16 @@ export default function Iphone(){
                 />
             </div>
                         
-            <div className={styles.background_2}> </div>
+            <div className={styles.background_2}><Bio /></div>
                       
             <div className={styles.background_4}></div>
                
-            <div className={styles.background_3}></div>  
+            <div className={styles.background_3}>
+            <Bio2/>
+            </div>  
 
             <div className={styles.background_5}></div>
-            <div className={styles.background_6}></div>
+            <div className={styles.background_6}> </div>
 
             <div className={styles.background_7}>
             <Nav 
@@ -35,6 +41,9 @@ export default function Iphone(){
                 className={styles.footer}
                 />
             </div>
+           
+           
+            
 
             
 

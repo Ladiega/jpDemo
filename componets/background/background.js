@@ -1,57 +1,44 @@
 import styles from '../background/background.module.css'
 import Image from 'next/image'
 import jpimg from '../../public/img/jpbground.png'
-
 import Nav from '../navbar/index'
-import Bio from '../bio/bio'
-import Engi from '../engineering/engineering'
-import Writing from '../writing/writing'
-import Form from '../form/form'
 import Footer from '../footer/index'
 
-
-
-
-
-export default function Background(){
+export default function Iphone(){
     return(
-            <div className={styles.background_container}>
-                
-                <div className = {styles.background1}>
-                
-                    
-                        <Image
-                        className = {styles.jp_photo}
-                        src = {jpimg}
-                        
-                        />
-                </div>
-                <Nav></Nav> 
-                <div>
-                   <Bio></Bio>
-                </div> 
-                
-                    
-                    <div className={styles.background2}> 
-                    <Engi></Engi>
-                    
-                    </div>
-                    <div className={styles.background5}>
-
-                    </div>
-                    <div className={styles.background3}>
-                          <Writing className={styles.background3_writing}></Writing>   
-                    
-                    </div>
-                    
-                    <div className={styles.background4}>  
-                    <Form className={styles.background4_form}></Form>
-
-                    </div>
-                  
-                    <Footer className={styles.footer_container}></Footer>
-
-                
+        <div className={styles.global_container}>
+            
+            <div className={styles.background_1}>
+                <Image
+                    className={styles.buritica_img}
+                    src={jpimg} 
+                />
             </div>
+                        
+            <div className={styles.background_2}> </div>
+                      
+            <div className={styles.background_4}></div>
+               
+            <div className={styles.background_3}></div>  
+
+            <div className={styles.background_5}></div>
+            <div className={styles.background_6}></div>
+
+            <div className={styles.background_7}>
+            <Nav 
+            className={styles.nav}
+            />              
+            </div>
+            
+            <div className={styles.background_8}>
+                <Footer
+                className={styles.footer}
+                />
+            </div>
+
+            
+
+        </div>
     )
+
 }

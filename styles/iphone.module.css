@@ -24,6 +24,7 @@
     z-index: 2;
 }
 
+
 .background_3{
     position: absolute;    
     margin-top: 105%;
@@ -34,7 +35,7 @@
     -webkit-border-radius: 50%;
     border-radius: 50%;
    
-    background-color: white;
+    background-color: rgb(243, 224, 224);
     z-index: 3;
    
 }
@@ -90,7 +91,7 @@
         border:2px solid cornflowerblue;
         z-index: 8;
     }
-    
+   
 
 
 

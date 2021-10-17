@@ -7,6 +7,7 @@ import Nav from '../componets/navbar/index'
 import Footer from '../componets/footer/index'
 import Bio from '../componets/bio/bio'
 import Bio2 from '../componets/bio2/index'
+import Engi from '../componets/engineering/engineering'
 
 export default function Iphone(){
     return(
@@ -21,7 +22,7 @@ export default function Iphone(){
                         
             <div className={styles.background_2}><Bio /></div>
                       
-            <div className={styles.background_4}></div>
+            <div className={styles.background_4}><Engi/></div>
                
             <div className={styles.background_3}>
             <Bio2/>

@@ -1,42 +1,50 @@
 .main_container2{
-    color:black;
-    width: 515px;
-    height: 170px;
-    font-size: 36px; 
-    margin-top: 260px;
-    margin-left: 3543px;
-    margin-right:85px;
+    color:white;
+    width: 37%;
+    height: 35%;  
+    font-size: 13px; 
+    margin-top: 20%;
+    margin-left: 45%;
+    
     border:1px solid springgreen;
   }
   .container2_h1{
     font-weight: 600;
-    font-size: 36px;
+    font-size: 13px;
     
   }
   .container2_p{
-    width: 837px;
-    
+    width: 100%;
+    font-weight: 200;
     border:1px solid springgreen;
   }
-  @media(max-width:375px){
+  .container2_date{
+    margin-top: -12%;
+    border:2px solid yellow;
+  }
+  @media(min-width:376px){
     .main_container2{
-      color:black;
-      width: 375px;
-      height: 70px;
-      font-size: 36px; 
-      margin-top: 60px;
-      margin-left: 21px;
+      color:white;
+      width: 30%;
+      font-size: 28px; 
+      margin-top: 210px;
+      margin-left: 57%;
     
-      border:1px solid springgreen;
+      border:1px solid rgb(225, 0, 255);
       }
       .container2_h1{
-        font-weight: 60;
+        
+        font-weight: 600;
         font-size: 13px;
         
       }
       .container2_p{
-        width: 37px;
-        
+        width: 100%;
+        margin-top: -5%;
         border:1px solid springgreen;
+      }
+      .container2_date{
+        margin-top: 6%;
+        font-size:12px ;
       }
     }

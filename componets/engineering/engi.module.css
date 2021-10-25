@@ -47,4 +47,32 @@
         margin-top: 6%;
         font-size:12px ;
       }
+      @media  (min-width:1439px){
+        .main_container2{
+          color:black;
+          width: 64%;
+          height: 35%;  
+          font-size: 13px; 
+          margin-top: -50%;
+          margin-left: 23%;
+          
+          border:1px solid rgb(190, 211, 201);
+        }
+        .container2_h1{
+          font-weight: 600;
+          font-size: 36px;
+          
+        }
+        .container2_p{
+          width: 103%;
+          font-size: 36px;
+          font-weight: 400;
+          border:1px solid springgreen;
+        }
+        .container2_date{
+          margin-top: -7%;
+          font-size: 36px;
+          border:2px solid yellow;
+        }
+      }
     }

@@ -4,6 +4,7 @@ import styles from '../writing/writing.module.css'
 import Image from 'next/image'
 import empanada from '../../public/img/empanada.png'
 import triangleb from '../../public/img/wpolygon.svg'
+import polygon from '../../public/img/triangleb.svg'
 
 export default function Writing(){
     return(
@@ -23,9 +24,10 @@ export default function Writing(){
                  className={styles.empanada_img}
                  alt="empanada"
                  src={empanada}           
-                 width={634.5}
-                 height={316.725}
+                 width={1269}
+                 height={633.45}
             />
+            
             </div>                               
              <div className={styles.writing_p4}>TL;DR I’m announcing the creation of a new fund to sponsor community software conferences in Latin-America and provide scholarships for 🇺🇸/🇨🇦 based Latinx folks. So far we’ve raised almost $40k for our 2020 fund, 💵 tax-deductible donations received here (with employer match support).
              </div>
@@ -39,8 +41,9 @@ export default function Writing(){
           </div>
             <div className={styles.wcircle}></div>
           <div className={styles.button_container}>
-            <button className={styles.button} type="button">More article {' '}
+            <button className={styles.button} type="button"><div className={styles.button_p}> More article {' '}</div>
               <div className={styles.polygon_container}>
+              <div className={styles.wpolygon_container}>
               <Image
                className={styles.wpolygon}
                src={triangleb}
@@ -48,7 +51,19 @@ export default function Writing(){
                height={15}
               
               />
-             </div>
+              </div>
+              <div className={styles.polygon_container}>
+              <Image
+                className={styles.polygon}
+                src={polygon}
+                width={15}
+                height={15}
+              
+              />
+              </div>
+
+
+            </div>
             </button>
           </div>
 

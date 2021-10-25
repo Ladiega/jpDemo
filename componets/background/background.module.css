@@ -58,14 +58,14 @@
      margin-top:300.667%;
   
      width: 100%; 
-     height: 30%; 
+     height: 40%; 
      background: rgb(248, 185, 90);
      z-index: 4;
     }
     
     .background_6{
         position:absolute;
-        margin-top:470%;
+        margin-top:540%;
      
         width: 100%; 
         height: 28%; 
@@ -84,10 +84,10 @@
 
     }
     .background_8{
-        margin-top:658.4% ;
+        margin-top:730.4% ;
         width: 100%;
         height: 2%;
-        border:2px solid cornflowerblue;
+        border:3px solid cornflowerblue;
         z-index: 8;
     }
     
@@ -100,7 +100,7 @@
     .background_1{
         background-color: cyan;
         margin-left:29% ;
-        margin-top: -0.5%;
+        margin-top: -3%;
         
        
       
@@ -121,10 +121,10 @@
      
     .background_3{
          
-        margin-top: 130%;
+        margin-top: 70%;
         margin-left:-270%;
         width: 510.081%;
-        height:130.216%;
+        height:190.216%;
        
         background-color: rgb(211, 122, 100);
        
@@ -133,9 +133,9 @@
     
     .background_4{
         
-        width: 112%;
-        height:16.5%;
-        margin-top: 197%;
+        width: 111%;
+        height:23%;
+        margin-top: 143%;
         margin-left: -5.1%;
      
         background-color: rgb(95, 139, 160);
@@ -144,114 +144,33 @@
     
     
         .background_5{
-         margin-top:260%;
+         margin-top:210%;
          width: 100%; 
-         height: 130%; 
+         height: 35%; 
          background: rgb(185, 236, 144);
         }
         
         .background_6{
-            margin-top:30.889;
+            margin-top:360%;
             width: 100%; 
-            height: 70%;
+            height: 90%;
             background-color:rgb(225, 100, 237);
             
         }
         
         
-        
+        .background_8{
+            margin-top:475% ;
+            width: 100%;
+            height: 2%;
+            border:2px solid cornflowerblue;
+            z-index: 8;
+        }
     
     
 }
 
 
-
-/*brake point*/
-
-/*
-@media(min-width:588px){
-    .background_1{
-       
-        margin-left: 20vw;
-        background-color: rgb(245, 243, 148);
-
-    }
-    .buritica_img{
-        width: 40%;
-    }
-
-    .background_3{
-         
-        margin-top: 90%;
-        margin-left:-270%;
-        width: 510.081%;
-        height:130.216%;
-       
-        background-color: rgb(211, 200, 100);
-       
-       
-    }
-    .background_4{
-        
-        width: 112%;
-        height:16.5%;
-        margin-top: 170%;
-        margin-left: -5.1%;
-     
-        background-color: rgb(95, 112, 160);
-       
-        }
-        .background_5{
-            margin-top:240%;
-            width: 100%; 
-            height: 130%; 
-            background: rgb(185, 236, 144);
-           }
-}
-*/
-
-/*
-
-@media(min-width:745px){
-
-    .background_1{
-       
-        margin-left: 60%;
-        background-color: rgb(219, 245, 148);
-
-    }
-    .buritica_img{
-        max-width: 100%;
-    }
-    .background_3{
-         
-        margin-top: 40%;
-        margin-left:-270%;
-        width: 510.081%;
-        height:130.216%;
-       
-        background-color: rgb(211, 100, 100);
-       
-       
-    }
-    .background_4{
-        
-        width: 112%;
-        height:16.5%;
-        margin-top: 110%;
-        margin-left: -5.1%;
-     
-        background-color: rgb(95, 112, 160);
-       
-        }
-        .background_5{
-            margin-top:180%;
-            width: 100%; 
-            height: 130%; 
-            background: rgb(185, 236, 144);
-           }
-}
-*/
 @media(min-width:1439px){
     .background_1{
         margin-left: 58.59%;
@@ -260,7 +179,10 @@
     
     .background_2{
         margin-top: 10%;
-        background-color: rgb(255, 44, 44);
+        margin-left: 7.5%;
+        width: 70%;
+        border:2px solid rgb(255, 44, 44);
+        z-index: 2;
     
     }
     
@@ -271,39 +193,50 @@
         
        
         
-        width: 225.4%;
-        height:32%;
+        width: 189%;
+        height:64%;
         margin-top: 63%;
-        margin-left: -122%;
+        margin-left: -84%;
+        z-index: 3;
        
         
     } 
     
     .background_4{
         width: 88.889%;
-        height:13% ;
-        margin-top: 126%;
-        margin-left: -17%;
+        height:29% ;
+        margin-top: 116%;
+        margin-left: -13%;
         background-color: rgb(37, 220, 20);
+        z-index: 4;
     }
 
     
     .background_5{
+       
         height: 12%;
+        margin-top: 186%;
         background-color: rgb(118, 139, 0);
+        z-index: 5;
     }
     .background_6{
-        display: none;
-         background-color: coral;
-        /*margin-top: 277%;
-       
-        height: 10%;*/
-
-        
+        display: block;
+        height: 34%;
+        margin-top: 186%;
+        background-color: coral;
+        z-index: 6;             
     }
     .background_7{
         margin-top: 3.5%;
         border: 2px solid rgb(237, 216, 100);
+        z-index: 7;
     }
-    
+    .background_8{
+        margin-top:280% ;
+        width: 100%;
+        height: 2%;
+        border:2px solid cornflowerblue;
+        z-index: 8;
+    }
+
 }

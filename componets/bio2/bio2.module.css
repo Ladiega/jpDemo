@@ -33,7 +33,7 @@
 
   @media(min-width:376px){
     .text4_container{
-      margin-top: 1%;
+      margin-top: 2%;
       margin-left: 54.3%;
       width: 6.5%;
       
@@ -72,7 +72,49 @@
   
     }
   
+    @media(min-width:1439px){
+      .text4_container{
+        margin-top: -14%;
+        margin-left: 48.4%;
+        width: 37%;
+        color: white;
+        border:2px solid rgb(65, 200, 218);
+       
+        
+      }
+      .text4_h1{
+        font-size: 36px;
+        font-weight: 400;
+      }
+      .text4_p{
+        font-size: 25px;
+        width: 90%;
+        font-weight:200;
+      }
+      
+      .text4_date{
+        margin-top: 1%;
+        margin-bottom: 0%;
+        font-size: 18px;
+      }
+      .text4_05{
+        font-size: 18px;
+        font-weight: 600;
     
+      }
+      .text4_fd{
+        font-size: 18px;
+        font-weight: 300;
+    
+      }
+      .text4_f{
+        font-size: 18px;
+        font-weight: 600;
+    
+      }
+
+
+    }
 
 
 

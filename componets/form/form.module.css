@@ -1,36 +1,40 @@
 .main_home_global{
-  height: 600px;  
-  border:1px solid rgb(198, 244, 247);
-    margin-top:70px;
-    margin-left: 85px;
-    margin-right: 85px;
+  width: 87.5%;
+  height: 160%;  
+  border:1px solid rgb(245, 241, 1);
+    margin-top:0;
+    margin-left: 6%;
     display:flex;
     flex-direction: column;
-    /*border:2px solid yellow;*/
+    
    
   } 
-   
+   .linetop{
+     width: 20%;
+     margin-top: 20%;
+     border: 0.5px solid white;
+     background-color: white;
+   }
   
-  .ul{
+  .form{
     color:white;
     font-weight: 600;
-    font-size: 35px; 
-    line-height: 41.09px;
+    font-size: 18px; 
     margin: 0;
     padding: 0;
   }
-  .ul >li{
-    list-style:none;
   
-  }
-  .li_inputs{
+  .inputs{
     list-style: none;
     text-indent: 5px;
-
   }
-  .li_name{
-    font-size:15px;
-    margin-top:60.19px;
+  .input1_name{
+    margin-left:0%;
+    font-size:12px;
+    margin-top:9%;
+  }
+  .liname{
+    margin-left: -2%;
   }
   .name_input{
     background-color:black;
@@ -42,10 +46,13 @@
     width   : 100%;
     overflow: auto;
   }
-  .li_mail{
+  .input2_mail{
     margin-top:30px;
-    font-size:15px;
+    font-size:12px;
     margin-top:68.52;
+  }
+  .limail{
+    margin-left: -2%;
   }
   .mail_input{
     background-color:black;
@@ -58,57 +65,333 @@
     overflow: auto;
 
   }
-  .li_msg{
-    font-size:15px;
-    margin-top:77.78px;
+  .input3_msg{
+    font-size:12px;
+    margin-top:10%;
   }
   .textarea{
     vertical-align: top;
     display : block;
     background-color: black;
     color: white;
-    border:1px solid white;
-  
-    padding : 10px;
-    width   : 100%;
-    height  : 90%;
-   
-
-  }
-  
-  .button{
-    margin-left:1142px;
-    color: white;
-    border-bottom: 2px solid white;
-    margin-bottom: 60px;
-    background: none;
     border: none;
-  
+    border-bottom:1px solid white;
+    width   : 100%;
+    height  : 20%;
+   }
+    
+  .button{
+    display: flex;
+    flex-direction: row;
+    margin-left:84%;
+    margin-top: 4%;
+    font-size:12px;
+    font-weight: 600;
+    border: none;
+    color: white;
+    background: none;
+    cursor: pointer;
+      
+  }
+  .button_polygon{
+    margin-left: 7%;
   }
   .form_footer{
     position: absolute;
-    /*border:2px solid yellow;*/
-    margin-top: -30px;
-    height: 120px;
+    margin-top: 10%;
+    
+  }
+  .jp_logo{
+    width: 30%;
   }
   .line{
-    margin-top:17.59px;
+    margin-top:-1%;
     background-color: white;
-    width:41px;
+    width:35%;
     height: 1px;
     
   }
   
   .text{
-    color:white;
-    margin-bottom:193.53px;
+    color:white;  
     font-size:21px;
     font-weight:600;
-    line-height:84.53px;
+  
   }
   .text_p{
-    margin-top: -10px;
+    margin-top: 8%;
+    font-size: 12px;
   }
-  
-  
+  .text_p2{
+    margin-top: 8%;
+    font-size: 12px;
+  }
+  @media(min-width:376px){
+    .main_home_global{
+      width: 83.7%;
+      height: 80%;  
+      border:1px solid rgb(38, 1, 245);
+        margin-top:0;
+        margin-left: 6.4%;
+        
+       
+      } 
+       .linetop{
+         width: 5%;
+         margin-top: 8%;
+         border: 0.5px solid white;
+         background-color: white;
+       }
+      
+      .form{
+        color:white;
+        font-weight: 600;
+        font-size: 30px; 
+        margin-top: 12%;
+        padding: 0;
+      }
+      
+      .inputs{
+        list-style: none;
+        text-indent: 5px;
+      }
+      .input1_name{
+        margin-left:0;
+        font-size:14px;
+        margin-top:9%;
+      }
+      .liname{
+        margin-left: -.7%;
+      }
+      .name_input{
+        background-color:black;
+        border:none;
+        color: white;
+        border-bottom: 1px solid white;
+        vertical-align: top;
+        display : block;  
+        width   : 100%;
+        overflow: auto;
+      }
+      .input2_mail{
+        margin-top:30px;
+        font-size:14px;
+        margin-top:68.52;
+      }
+      .limail{
+        margin-left: -.7%;
+      }
+      .mail_input{
+        background-color:black;
+        border:none;
+        border-bottom: 1px solid white;
+        color: white;
+        display : block;  
+        width   : 100%;
+        overflow: auto;
+    
+      }
+      .input3_msg{
+        font-size:14px;
+        margin-top:10%;
+      }
+      .textarea{
+        vertical-align: top;
+        display : block;
+        background-color: black;
+        color: white;
+        border: none;
+        border-bottom:1px solid white;
+        width   : 100%;
+        height  : 20%;
+       }
+        
+      .button{
+        display: flex;
+        flex-direction: row;
+        margin-left:90%;
+        margin-right: 1%;
+        margin-top: 4%;
+        font-size:14px;
+        font-weight: 600;
+        border: none;
+        color: white;
+        
+          
+      }
+      .button_polygon{
+        margin-left: 2%;
+      
+      }
+      .form_footer{
+        position: absolute;
+        margin-top: 10%;
+        
+      }
+      .jp_logo{
+        width: 70%;
+        
+      }
+      .line{
+        margin-top:25%;
+        background-color: white;
+        width:45%;
+        height: 1px;
+        
+      }
+      
+      .text{
+        color:white;  
+        margin-top: 20%;
+        font-size:21px;
+        font-weight:600;
+      
+      }
+      .text_p{
+        margin-top: 8%;
+        font-size: 18px;
+      }
+      .text_p2{
+        margin-top: 2%;
+        font-size: 18px;
+      }
+
+      @media(min-width:1439px){
+        .main_home_global{
+          width: 87%;
+          height: 80%;  
+          border:1px solid rgb(38, 1, 245);
+            margin-top:0;
+            margin-left: 7.4%;
+            
+           
+          } 
+           .linetop{
+             display: none;
+           
+           }
+          
+          .form{
+            color:white;
+            font-weight: 600;
+            font-size: 35px; 
+            margin-top: 12%;
+            padding: 0;
+          }
+          
+          .inputs{
+            list-style: none;
+            text-indent: 5px;
+          }
+          .input1_name{
+            margin-left:0;
+            font-size:15px;
+            margin-top:9%;
+          }
+          .liname{
+            margin-left: -.7%;
+          }
+          .name_input{
+            background-color:black;
+            border:none;
+            color: white;
+            border-bottom: 1px solid white;
+            display : block;  
+            width   : 100%;
+            overflow: auto;
+          }
+          .input2_mail{
+            margin-top:30px;
+            font-size:15px;
+            margin-top:68.52;
+          }
+          .limail{
+            margin-left: -.7%;
+          }
+          .mail_input{
+            background-color:black;
+            border:none;
+            border-bottom: 1px solid white;
+            color: white;
+           
+            display : block;  
+            width   : 100%;
+            overflow: auto;
+        
+          }
+          .input3_msg{
+            font-size:15px;
+            margin-top:3%;
+          }
+          .textarea{
+            vertical-align: top;
+            display : block;
+            background-color: black;
+            color: white;
+            border: none;
+            border-top:1px solid white ;
+            border-bottom:1px solid white;
+            width   : 100%;
+            height  : 20%;
+           }
+            
+          .button{
+            display: flex;
+            flex-direction: row;
+            margin-left:90%;
+            margin-right: 2%;
+            margin-top: 3%;
+            font-size:15px;
+            font-weight: 600;
+            border: none;
+            color: white;
+            
+              
+          }
+          .button_polygon{
+            
+            margin-top: 1%;
+            margin-left: 3%;
+          
+          }
+          .form_footer{
+            position: absolute;
+            margin-top: 10%;
+            
+          }
+          .jp_logo{
+            width: 70%;
+            
+          }
+          .line{
+            margin-top:25%;
+            background-color: white;
+            width:45%;
+            height: 1px;
+            
+          }
+          
+          .text{
+            color:white;  
+            margin-top: 20%;
+            font-size:21px;
+            font-weight:600;
+          
+          }
+          .text_p{
+            margin-top: 8%;
+            font-size: 21px;
+          }
+          .text_p2{
+            display: none;
+            margin-top: 2%;
+            font-size: 21px;
+          }
+    
+
+
+      }
+    
+
+  }
   

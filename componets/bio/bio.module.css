@@ -106,10 +106,10 @@
     .main_container1{
     
     border: 2px solid rgb(203, 252, 148);
-    margin-left:9.615%;
-    margin-top:19%;
+    margin-left:10%;
+    margin-top:37%;
     font-size: 18px;
-    width: 35.938%;
+    width: 42%;
      
    }
    .text1_p{
@@ -118,7 +118,7 @@
     padding: 0;
     
     
-    font-size: 100%;
+    font-size: 18px;
     font-weight: 200;
     
   }
@@ -127,18 +127,18 @@
   }
   .text2>p{
     border: 2px solid rgb(243, 123, 123);
-    margin-top: -0.533%;
+    margin-top: 1%;
     margin-left: -1.088%;
     padding: 0;      
-    font-size: 300%;
+    font-size: 64px;
     font-weight: 700;
    
   }
   .circletext{
     margin: 0;
     padding: 0;
-    width: 0.5rem;
-    height: 0.5rem;
+    width: 0.6rem;
+    height: 0.6rem;
     margin-top:-2.913rem;   
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
@@ -150,7 +150,7 @@
     width: 100%;
     margin-top: -2%;
     font-weight: 200;
-    font-size: 13px;
+    font-size: 18px;
     
     
     
@@ -202,6 +202,114 @@
   .wcontainer_p{
     font-weight: 200;
    
+  }
+  @media(min-width:1439px){
+    .main_container1{
+    
+      border: 2px solid rgb(252, 210, 148);
+      margin-left:0%;
+      width: 70%;
+      margin-top:0%;
+      display: flex;
+      flex-direction:column;
+      color: white;
+     
+    
+    }
+    
+    .text1_p{
+      border: 2px solid rgb(164, 236, 245);
+      margin: 0;
+      padding: 0;
+      
+      
+      font-size: 100%;
+      font-weight: 200;
+      
+    }
+    .text1>b{
+      font-weight: 700;
+    }
+    .text2>p{
+      border: 2px solid rgb(243, 123, 123);
+      margin-top: -0.533%;
+      margin-left: -0.9%;
+      padding: 0;      
+      font-size: 72px;
+      font-weight: 700;
+     
+    }
+    .circletext{
+      margin: 0;
+      padding: 0;
+      width: 0.5rem;
+      height: 0.5rem;
+      margin-top:-2.813rem;   
+      -moz-border-radius: 50%;
+      -webkit-border-radius: 50%;
+      border-radius: 50%;
+      background: white;
+    }
+    .text3{
+      border:1px solid blueviolet;
+      width: 90%;
+      margin-top: -5%;
+      font-weight: 200;
+      font-size: 20px;
+      
+      
+    }
+    .text3 >b{
+      font-weight: 400;
+    
+    }
+    .text4_p{
+      display: none;
+      width:840px;
+      height:97px;
+      font-size: 25px;
+      font-weight: 200;
+      
+    }
+    .main_container2{
+      color: rgb(241, 132, 132);
+      width: 837px;
+      height: 170px;
+      margin-top: 523px;
+      margin-left: 85px;
+      margin-right:85px;
+      border:1px solid springgreen;
+    }
+    
+    .main_container3{
+      width: 837px;
+    
+      color: white;
+      margin-top:338px;
+      margin-left:85px;
+      margin-right:85px;
+      border:1px solid yellow;
+      font-weight: 400; 
+      font-size: 20px;
+    }
+    .button_container >button{
+      width: 221px;
+      height: 42px;
+      
+      font-size: 24px;
+      font-weight: 700;
+      background-color: white;
+      border: none;
+      
+    }
+    
+    .wcontainer_p{
+      font-weight: 200;
+     
+    }
+
+
+
   }
   }
   

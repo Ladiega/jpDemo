@@ -2,6 +2,7 @@ import styles from '../navbar/navbar.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
 
+
 import jplogo from '../../public/img/jpicon.svg'
 import instalogo from '../../public/img/instaicon.svg'
 import twilogo from '../../public/img/twicon.svg'
@@ -48,7 +49,7 @@ export default function Nav(){
                     </a>
                     </Link>
                     </div>
-                    <div className={styles.hmenulogo_container}>
+                    <div className={styles.hmenulogo_container} >
                     <button type="button" className={styles.hmenu_button}>
                     <Image
                     className={styles.hmenulogo}
@@ -61,6 +62,7 @@ export default function Nav(){
                     
 
             </nav>
+        
         </div>
     )
 }

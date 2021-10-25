@@ -6,35 +6,47 @@ import polygon from '../../public/img/polygon.svg'
 export default function Form(){
     return(
         <main className={styles.main_home_global}>
-        <div className={styles.main_container}>
-          <h1 className={styles.main_h1}></h1>
+          <div className={styles.main_container}>
+
+              <div className={styles.linetop}></div>
+              <h1 className={styles.main_h1}></h1>
           <form className={styles.form_container} action="">
-            <ul className={styles.ul} >Send me a message!
-              <div className={styles.li_inputs}>
-                <li className={styles.li_name}>Name:
+
+            <div className={styles.form} >Send me a message!
+              
+              
+              <div className={styles.inputs}>
+                <div className={styles.input1_name}><div className={styles.liname}>Name:</div> 
                   <label htmlFor="name"></label>
                   <input className={styles.name_input} type="text" name="name" id="name"/>
-                </li>
-                <li className={styles.li_mail}>E-mail:
+                </div>
+
+                <div className={styles.input2_mail}><div className={styles.limail}>E-mail:</div> 
                   <label htmlFor="mail"></label>
                   <input className={styles.mail_input} type="email" name="mail" id="mail"/>
-                </li>
+                </div>
+
               </div>
-              <li className={styles.li_msg}>Message:
+
+              <div className={styles.input3_msg}>Message:
                 <label htmlFor="msg"></label>
                 <textarea className={styles.textarea} name="msg" id="msg" cols="30" rows="10"> </textarea>
-              </li>
-              <li className={styles.send_button}>
+              </div>
+
+              <div className={styles.button_container}>
                 <button className={styles.button} type="submit">send! {' '}
-                <Image
+                <div className={styles.button_polygon}>
+                  <Image
                   src={polygon}
                   width = {13.89}
                   height = {15}
-                />
-                
+                  />
+                </div>
                 </button>
-              </li>
-            </ul>
+              </div>
+
+            </div>
+
               <div className={styles.form_footer}>
                 <div className={styles.jp_logo}>
                   <Image
@@ -46,10 +58,14 @@ export default function Form(){
                 <div className={styles.line}>
                   
                 </div>
+
                 <div className={styles.text}>
-                  <p className={styles.text_p}>
+                  <div className={styles.text_p}>
                     j@buriti.ca
-                  </p>
+                  </div>
+                  <div className={styles.text_p2}>
+                    My work
+                  </div>
 
                 </div>
               

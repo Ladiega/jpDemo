@@ -40,27 +40,32 @@ export default function Writing(){
             
           </div>
             <div className={styles.wcircle}></div>
+
+
           <div className={styles.button_container}>
-            <button className={styles.button} type="button"><div className={styles.button_p}> More article {' '}</div>
+            <button className={styles.button} type="button">
+
+              <div className={styles.button_p}> More article {' '}</div>
+
               <div className={styles.polygon_container}>
-              <div className={styles.wpolygon_container}>
-              <Image
-               className={styles.wpolygon}
-               src={triangleb}
-               width={15}
-               height={15}
-              
-              />
-              </div>
-              <div className={styles.polygon_container}>
-              <Image
+
+                <div className={styles.wpolygon_container}>
+                <Image
+                className={styles.wpolygon}
+                src={triangleb}
+                width={15}
+                height={15}
+                />
+                </div>
+
+                <div className={styles.bpolygon_container}>
+                <Image
                 className={styles.polygon}
                 src={polygon}
                 width={15}
                 height={15}
-              
-              />
-              </div>
+                />
+                </div>
 
 
             </div>

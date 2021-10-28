@@ -8,18 +8,44 @@
     border:2px solid lightblue;
     width: 90%;
 }
-
 /*navbar*/
+
 .blog_nav{
     margin-top: 12%;
     display: flex;
+    position: relative;
     align-items: center;
 }
+.jpicon_container{
+    position: absolute;
+    margin-left: -1%;
+}
+
 .buritica{
+    position: absolute;
+    margin-left: 8.5%;
     font-family: 'Josefin Sans';
     font-size: 15px;
     font-weight: 700;
 }
+.instalogo_container{
+    position: absolute;
+    width: 7.5%;
+    margin-left: 73%;
+}
+.twilogo_container{
+
+    position: absolute;
+    margin-left: 80%;
+}
+.hlogo_container{
+    position: absolute;
+    width: 7.133%;
+    margin-left: 94.5%;
+}
+
+
+
 
 /*content*/
 

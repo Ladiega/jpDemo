@@ -140,23 +140,42 @@
 /*footer*/
 
 .blogfooter_container{
-    margin-top:5% ;
-}
-
-
-.hmenulogob{
-    border: none;
-    background: none;
-}
-
-
-
-.blogfooter_container{
+    margin-top: 5%;
     display: flex;
     align-items: center;
     color:white;
     background-color: black;
 }
-.winsta_logo{
+.footer_container{
+    display: flex;
+    position: relative;
+    align-items: center;
+    width: 90%;
+    
     margin-left: 5%;
+    border:2px solid palevioletred;
+
+}
+
+.winsta_logo{
+    position: absolute;
+    width: 6%;
+}
+.wtwi_logo{
+    position: absolute;
+    margin-left: 7%;
+    width: 6%;
+}
+.wjp_logo{
+    position: absolute;
+    width: 5%;
+    margin-left: 83%;
+}
+.whome{
+    position: relative;
+    font-size: 12px;
+    padding: 5% 0%;
+    font-weight: 700;
+    margin-left: 89%;
+    
 }

@@ -80,6 +80,9 @@ export default function bloghome(){
             </div>    
             
             <div className={styles.blogfooter_container}>
+                <div className={styles.footer_container}>
+
+                
                 <div className={styles.winsta_logo}>
                     <Link href="https://www.instagram.com/buritica/?hl=es">
                     <Image
@@ -88,10 +91,10 @@ export default function bloghome(){
                     />
                     </Link>
                 </div>
-                <div className={styles.twi_logo}>
+                <div className={styles.wtwi_logo}>
                 <Link href="https://twitter.com/buritica?lang=es">
                     <Image
-                    className={styles.twi_logo}
+                    className={styles.wtwilogo}
                     src={twilogo}
                     />
                     </Link>
@@ -104,11 +107,11 @@ export default function bloghome(){
                     />
                     </Link>
                 </div>
-                <div className={styles.home}>Home</div>
+                <div className={styles.whome}>Home</div>
             
             </div>
             
-
+            </div>
         </div>
     )
 }

@@ -16,7 +16,10 @@ import jplogo from '../public/img/jpicon.svg'
 export default function bloghome(){
     return(
         <div className={styles.bloghome_container}>
-        
+            <Head>
+            <link rel="icon" href="/jpicon.ico" />
+            </Head>
+
           <div className={styles.bloghome_content}> 
             <div className={styles.blog_nav}>
               

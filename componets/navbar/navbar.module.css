@@ -58,12 +58,7 @@
        
         
         }
-        .jplogo_container{
-            
-            border:2px solid rgb(255, 149, 27);
-            
-        
-        }
+       
        
         .instalogo_container{
            
@@ -99,35 +94,29 @@
     .nav_container{
     
     margin-top: 0%;
-    
+    margin-left: 7.5%;
+    width: 85%;
     border:2px solid rgb(236, 161, 177);
     
-    }
-    .jplogo_container{
-       
-        margin-left: 6.042%;
-    
-    }
+   
+}
+   
    
     .instalogo_container{
       
-        margin-left: 84.931%;
+        margin-left: 88.5%;
        
     }
   
     .twilogo_container{
        
-        margin-left:86.736% ;
+        margin-left:90% ;
     
     }
-    .twilogo{
-        width:1.25rem ;
-        height:1.25rem  ;
-    
-    }
+  
     .hmenulogo_container{
        
-        margin-left:91.903% ;
+        margin-left:98% ;
     }
    
 

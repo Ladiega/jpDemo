@@ -1,3 +1,5 @@
+/*global------------------------------*/
+
 .bloghome_container{
     
     background-color: white;
@@ -8,7 +10,7 @@
     border:2px solid lightblue;
     width: 90%;
 }
-/*navbar*/
+/*navbar------------------------------*/
 
 .blog_nav{
     margin-top: 12%;
@@ -43,11 +45,15 @@
     width: 7.133%;
     margin-left: 94.5%;
 }
+.hmenulogob{
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
 
 
 
-
-/*content*/
+/*content------------------------------*/
 
 .blog_content{
     font-family:'Raleway';
@@ -56,7 +62,7 @@
 .blog{
     font-size:'Raleway';
     font-size: 30px;
-    font-weight: 700;
+    font-weight: 800;
 }
 
 .line1{
@@ -99,6 +105,9 @@
     font-weight: 700;
     
 }
+.dot1{
+    display: none;
+}
 .line2{
     margin-top: 10%;
     border-bottom: 1px solid black;
@@ -137,7 +146,13 @@
     font-weight: 700;
 
 }
-/*footer*/
+.dot2{
+    display: none;
+}
+.blog3{
+    display: none;
+}
+/*footer----------------------------*/
 
 .blogfooter_container{
     margin-top: 5%;
@@ -177,5 +192,279 @@
     padding: 5% 0%;
     font-weight: 700;
     margin-left: 89%;
+    
+}
+
+@media (min-width:376px){
+    /*global------------------------------*/
+
+.bloghome_container{
+    
+    background-color: white;
+     
+}
+.bloghome_content{
+    margin-left: 10%; 
+    border:2px solid rgb(212, 173, 230);
+    width: 80%;
+}
+/*navbar------------------------------*/
+
+.blog_nav{
+    margin-top: 12%;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+.jpicon_container{
+    position: absolute;
+    margin-left: -.5%;
+    
+}
+
+.buritica{
+    display:none;
+   
+}
+.instalogo_container{
+    position: absolute;
+    width: 4%;
+    margin-left: 81%;
+}
+.twilogo_container{
+    position: absolute;
+    margin-left: 85%;
+}
+.hlogo_container{
+    position: absolute;
+    width: 7.133%;
+    margin-left: 95%;
+}
+.hmenulogob{
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+
+
+/*content------------------------------*/
+
+.blog_content{
+    font-family:'Raleway';
+    margin-top: 10%;
+}
+.blog{
+    font-size:'Raleway';
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.line1{
+    margin-top: 5%;
+    border-bottom: 1px solid black;
+    width: 7%;
+    
+}
+.text1{
+    margin-top: 2%;
+    font-size: 18px;
+    font-weight: 600;
+    width: 100%;
+}
+.date{
+    margin-top: 10%;
+    display: flex;
+    font-size: 12px;
+}
+.five{
+    font-weight: 700;
+}
+.text2{
+    margin-top: 5%;
+    font-size: 17px;
+}
+.text3{
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.text4{
+    margin-top: 5%;
+    font-size: 15px;
+    font-weight: 400;
+    width: 91.55%;
+}
+.text5{
+    font-size: 15px;
+    font-weight: 700;
+    
+}
+.dot1{
+    display: block;
+    width: 7px;
+        height:7px;
+        margin-top: 7%;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        background:black;
+   
+}
+.line2{
+    display: none;
+    margin-top: 10%;
+    border-bottom: 1px solid black;
+    width: 7%;
+}
+.date2{
+    font-size: 12px;
+    font-weight: 400;
+    display: flex;
+    margin-top: 10%;
+    
+}
+.five2{
+    font-weight: 700;
+}
+.text6{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    font-size: 20px;
+    font-weight: 400;
+}
+.text6_2{
+    font-weight: 700;
+    line-height: 19,96px;
+    width: 70%;
+}
+.text7{
+    margin-top: 3%;
+    width: 90%;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15.26px;
+}
+.text8{
+    font-weight: 700;
+
+}
+.dot2{
+    display: block;
+    width: 7px;
+        height:7px;
+        margin-top: 7%;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        background:black;
+
+}
+.blog3{
+    display: block;
+}
+.date3{
+    font-size: 12px;
+    font-weight: 400;
+    display: flex;
+    margin-top: 10%;
+    
+}
+.five3{
+    font-weight: 700;
+}
+.text9{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    font-size: 20px;
+    font-weight: 400;
+}
+.text9_2{
+    font-weight: 700;
+    line-height: 19,96px;
+    width: 85%;
+}
+.text10{
+    margin-top: 3%;
+    width: 87%;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15.26px;
+}
+.text11{
+    margin-top: 5%;
+    font-weight: 700;
+
+}
+.dot3{
+    display: block;
+    width: 7px;
+        height:7px;
+        margin-top: 7%;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        background:black;
+
+}
+.dot4{
+    display: block;
+    width: 7px;
+    height:7px;
+    margin-top: 7%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background:black;
+}
+/*footer----------------------------*/
+
+.blogfooter_container{
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    color:white;
+    background-color: black;
+}
+.footer_container{
+    display: flex;
+    position: relative;
+    align-items: center;
+    width: 80%;
+    
+    margin-left: 10%;
+    border:2px solid palevioletred;
+
+}
+
+.winsta_logo{
+    position: absolute;
+    width: 6%;
+}
+.wtwi_logo{
+    position: absolute;
+    margin-left: 4%;
+    width: 6%;
+}
+.wjp_logo{
+    position: absolute;
+    width: 5%;
+    margin-left: 89%;
+}
+.whome{
+    position: relative;
+    font-size: 12px;
+    padding: 5% 0%;
+    font-weight: 700;
+    margin-left: 95%;
+    
+}
+
+
+
+}
+@media (min-width:1439px){
     
 }

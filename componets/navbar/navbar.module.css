@@ -6,26 +6,24 @@
     display: flex;
     align-items: center;
     margin-top:18.919% ;
-    
-    padding: 1%;
+    width: 90%;
+    padding: 3% 0;
+    margin-left: 6%;
     position: relative;
+    border: 2px solid coral;
 
 
 }
 .jplogo_container{
     position: absolute;
-    margin-left: 5.676%;
+    width: 6.4%;
+    
   
 }
-.jplogo{
-    width:1.5rem;
-    height: 1.25rem;
-   
-    
-    
-}
+
 .instalogo_container{
     position: absolute;
+    width: 5.33%;
     margin-left: 68.108%;
    
 }
@@ -40,7 +38,8 @@
 .hmenulogo_container{
     
     position: absolute;
-    margin-left:83.108% ;
+    width: 7.133%;
+    margin-left:90% ;
 }
 .hmenu_button{
     cursor: pointer;
@@ -52,35 +51,35 @@
    
     .nav_container{
         display: flex;
-        
+        width: 85%;
         border:2px solid rgb(255, 149, 27);
         margin-top: 10%;
-        height: 60px;
+        margin-left: 7.5%;
        
         
         }
         .jplogo_container{
             
             border:2px solid rgb(255, 149, 27);
-            margin-left: 5.615%;
+            
         
         }
        
         .instalogo_container{
            
-            margin-left: 74.279%;
+            margin-left: 79%;
            
         }
       
         .twilogo_container{
            
-            margin-left:77.404% ;
+            margin-left:82% ;
         
         }
         
         .hmenulogo_container{
            
-            margin-left:86.346% ;
+            margin-left:96% ;
         }
        
 

@@ -1,7 +1,7 @@
 import styles from '../navbar/navbar.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
-import Script from 'next/script'
+import Hmenu from '../hbutton/hbutton'
 
 
 import jplogo from '../../public/img/jpicon.svg'
@@ -60,6 +60,7 @@ export default function Nav(){
                     height={17}
                     />
                     </button>
+                    <Hmenu/>
                     </div>
                     
 

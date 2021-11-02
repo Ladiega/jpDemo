@@ -25,20 +25,20 @@ export default function Hmenu (){
   .nav {
     position: fixed;
     background: gray;
-    
     left: -100%;
     width: 375px;
     height: 100vh;
     display: flex;
     flex-direction:column;
-    justify-content: center;
     color: #fff;
   }
   
   .nav.open {
     left: 0;
   }
-  
+  .nav a{
+      border:1px solid salmon;
+  }
  
   
   .hamburger {
@@ -46,7 +46,7 @@ export default function Hmenu (){
     background:black;
     border:1px solid rgb(235, 115, 115);
     cursor: pointer;
-    z-index: 1000;
+   
   }
   
 

@@ -2,7 +2,7 @@ import Head from 'next/head'
 import styles from '../styles/blog.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
-import Nav2 from '../componets/nav2/nav2'
+
 
 import jplogob from '../public/img/jplogob.png'
 import x from '../public/img/x.svg'
@@ -11,12 +11,7 @@ export default function Blog(){
     return(
         //menu expanded
        <div className={styles.menu_open}>
-           <Head>
-          
-            <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet"/>
-
-            <link rel="icon" href="/jpicon.ico" />
-          </Head>
+           
            
           
           

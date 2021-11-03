@@ -1,19 +1,21 @@
 import styles from '../hbutton/hbutton.module.css'
 import Image from 'next/image'
 import hmenu from '../../public/img/hmenu.svg'
+import Open from '../open/open'
+
 import Script from 'next/script'
 
 
 
 export default function Hmenu (){
     return(
-        <div>
-            <div className="nav">
-                <a>menu expanded</a>
-                <a>menu expanded</a>
-                <a>menu expanded</a>
-
+        <div className="hmenu_container">
+            <div className="nav_content">
+              <div className="nav">
+                
+              </div>
             </div>
+
             <button type="button" className="hamburger">
                <Image
                src={hmenu}
@@ -21,7 +23,9 @@ export default function Hmenu (){
             </button>
             <style jsx>{`
     
-  
+  .hmenu_content{
+    background:transparent;
+  }
   .nav {
     position: fixed;
     background: gray;
@@ -30,11 +34,12 @@ export default function Hmenu (){
     height: 100vh;
     display: flex;
     flex-direction:column;
-    color: #fff;
+    
   }
   
   .nav.open {
-    left: 0;
+    left: 40%;
+    transition:1s;
   }
   .nav a{
       border:1px solid salmon;

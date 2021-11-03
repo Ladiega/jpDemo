@@ -16,30 +16,31 @@
 }
 .jplogo_container{
     position: absolute;
-    width: 6.4%;
+    width: 4.5%;
     
   
 }
 
 .instalogo_container{
     position: absolute;
-    width: 5.33%;
-    margin-left: 68.108%;
+    width: 4.5%;
+    margin-left: 75%;
    
 }
 
 
 .twilogo_container{
     position: absolute;
-    margin-left:73.784% ;
+    margin-left:80% ;
+    width: 4.5%;
 
 }
 
 .hmenulogo_container{
     
     position: absolute;
-    width: 7.133%;
-    margin-left:94% ;
+    width: 9.133%;
+    margin-left:93% ;
 }
 .hmenu_button{
     cursor: pointer;
@@ -58,6 +59,9 @@
        
         
         }
+        .jplogo_container{
+            width: 4%;
+        }
        
        
         .instalogo_container{
@@ -74,7 +78,7 @@
         
         .hmenulogo_container{
            
-            margin-left:96% ;
+            margin-left:94% ;
         }
        
 
@@ -100,11 +104,13 @@
     
    
 }
-   
+   .jplogo_container{
+       width: 2.5%;
+   }
    
     .instalogo_container{
       
-        margin-left: 88.5%;
+        margin-left: 88%;
        
     }
   
@@ -116,7 +122,7 @@
   
     .hmenulogo_container{
        
-        margin-left:98% ;
+        margin-left:96.5% ;
     }
    
 

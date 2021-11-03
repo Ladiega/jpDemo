@@ -11,10 +11,6 @@ export default function Blog(){
     return(
         //menu expanded
        <div className={styles.menu_open}>
-           
-           
-          
-          
           
            <div className={styles.background1_container}>
                <div className={styles.header}>

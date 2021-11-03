@@ -42,9 +42,10 @@ export default function Hmenu (){
  
   
   .hamburger {
-    position: fixed;
-    background:black;
-    border:1px solid rgb(235, 115, 115);
+    
+    background:none;
+    
+    border:none;
     cursor: pointer;
    
   }

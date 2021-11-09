@@ -37,7 +37,7 @@ export default function Open(){
                </div>
                <div className={styles.bg1_text1}>
                    <div>
-                       <Link href="/blog">
+                       <Link href="/blogHome">
                          <a>📓Blog</a>
                        </Link>
                        
@@ -46,7 +46,7 @@ export default function Open(){
                        
                    </div>
                    <div>
-                       <Link href="/photography">
+                       <Link href="/photo">
                         <a>📸Photogrophy</a>
                        </Link>
                       

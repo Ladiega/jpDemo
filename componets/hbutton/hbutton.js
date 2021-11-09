@@ -12,7 +12,7 @@ export default function Hmenu (){
         <div className="hmenu_container">
             <div className="nav_content">
               <div className="nav">
-                
+              <Open/>
               </div>
             </div>
 
@@ -28,21 +28,23 @@ export default function Hmenu (){
   }
   .nav {
     position: fixed;
-    background: gray;
-    left: -100%;
+    background:white;
+    margin-top:-14.5%;
+    right: 100%;
+
     width: 375px;
-    height: 100vh;
+    
     display: flex;
     flex-direction:column;
     
   }
   
   .nav.open {
-    left: 40%;
-    transition:1s;
+    right: 0%;
+    transition:.3s;
   }
   .nav a{
-      border:1px solid salmon;
+      border:.3px solid salmon;
   }
  
   

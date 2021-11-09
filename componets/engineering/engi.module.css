@@ -3,10 +3,10 @@
     width: 37%;
     height: 35%;  
     font-size: 13px; 
-    margin-top: 20%;
+    margin-top: 25%;
     margin-left: 45%;
     
-    border:1px solid springgreen;
+    /*border:1px solid springgreen;*/
   }
   .container2_h1{
     font-weight: 600;
@@ -16,11 +16,11 @@
   .container2_p{
     width: 100%;
     font-weight: 200;
-    border:1px solid springgreen;
+    /*border:1px solid springgreen;*/
   }
   .container2_date{
-    margin-top: -12%;
-    border:2px solid yellow;
+    margin-top: 0%;
+    /*border:2px solid yellow;*/
   }
   @media(min-width:376px){
     .main_container2{

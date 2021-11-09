@@ -3,8 +3,11 @@ import Image from 'next/image'
 import jpicon from '../../public/img/jpicon.svg'
 import polygon from '../../public/img/polygon.svg'
 
+
+
 export default function Form(){
     return(
+      
         <main className={styles.main_home_global}>
           <div className={styles.main_container}>
 
@@ -30,7 +33,20 @@ export default function Form(){
 
               <div className={styles.input3_msg}>Message:
                 <label htmlFor="msg"></label>
-                <textarea className={styles.textarea} name="msg" id="msg" cols="30" rows="10"> </textarea>
+                <textarea 
+                className={styles.textarea} 
+                name="msg" 
+                id="msg" 
+                cols="30" 
+                rows="5"
+                value={this}
+                onChange={this} 
+                required
+                > 
+                
+                
+                
+                </textarea>
               </div>
 
               <div className={styles.button_container}>

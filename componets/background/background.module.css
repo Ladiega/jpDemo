@@ -9,7 +9,7 @@
 
 .background_1{
     position:absolute;
-    margin-left:0px ;
+    margin-left:29% ;
     margin-top: -11%;
     max-width: 100%;
     background-color: black;
@@ -96,10 +96,10 @@
 
 /*ipad responsive 376 px until 832px */
     
-@media(min-width:376px){
+@media(min-width:832px){
     .background_1{
         background-color: cyan;
-        margin-left:29% ;
+        margin-left:59% ;
         margin-top: -3%;
         
        
@@ -173,7 +173,8 @@
 
 @media(min-width:1439px){
     .background_1{
-        margin-left: 58.59%;
+        margin-left: 69.59%;
+        
         background-color: crimson;
     }
     

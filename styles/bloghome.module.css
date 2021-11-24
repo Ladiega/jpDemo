@@ -21,6 +21,7 @@
 .jpicon_container{
     position: absolute;
     margin-left: -1%;
+    cursor: pointer;
 }
 
 .buritica{
@@ -34,11 +35,13 @@
     position: absolute;
     width: 7.5%;
     margin-left: 73%;
+    cursor: pointer;
 }
 .twilogo_container{
 
     position: absolute;
     margin-left: 80%;
+    cursor: pointer;
 }
 .hlogo_container{
     position: absolute;

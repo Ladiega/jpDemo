@@ -1,10 +1,20 @@
 import Hmenu from '../componets/hbutton/hbutton'
 import Open from '../componets/open/open'
-
+import Script from 'next/script'
 export default function Test (){
     return(
         <div>
-            <Hmenu/>
+            <div className="button_container">
+                <button className="button">
+                    ham
+                </button>
+            </div>
+        <Script id="menu" strategy="lazyOnload">
+            {`
+            const x = ("Hello Test page");
+            console.log(x) ;
+            `}
+        </Script>
             
         </div>
         

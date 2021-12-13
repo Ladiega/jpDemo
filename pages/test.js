@@ -11,8 +11,7 @@ export default function Test (){
             </div>
         <Script id="menu" strategy="lazyOnload">
             {`
-            const x = ("Hello Test page");
-            console.log(x) ;
+                document.getElement
             `}
         </Script>
             

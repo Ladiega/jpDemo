@@ -101,7 +101,7 @@
     
 @media(min-width:832px){
     .background_1{
-        background-color: cyan;
+       /* background-color: cyan;*/
         margin-left:59% ;
         margin-top: -3%;
         
@@ -129,7 +129,7 @@
         width: 510.081%;
         height:190.216%;
        
-        background-color: rgb(211, 122, 100);
+        /*background-color: rgb(211, 122, 100);*/
        
        
     }
@@ -141,7 +141,7 @@
         margin-top: 143%;
         margin-left: -5.1%;
      
-        background-color: rgb(95, 139, 160);
+        /*background-color: rgb(95, 139, 160);*/
        
         }
     
@@ -150,14 +150,14 @@
          margin-top:210%;
          width: 100%; 
          height: 35%; 
-         background: rgb(185, 236, 144);
+         /*background: rgb(185, 236, 144);*/
         }
         
         .background_6{
             margin-top:360%;
             width: 100%; 
             height: 90%;
-            background-color:rgb(225, 100, 237);
+           /*background-color:rgb(225, 100, 237);*/ 
             
         }
         
@@ -185,7 +185,7 @@
         margin-top: 10%;
         margin-left: 7.5%;
         width: 70%;
-        border:2px solid rgb(255, 44, 44);
+       /* border:2px solid rgb(255, 44, 44);*/
         z-index: 2;
     
     }
@@ -193,7 +193,7 @@
     
     .background_3{
         margin-top: 60%;
-        background-color: rgb(194, 100, 237);
+        /*background-color: rgb(194, 100, 237);*/
         
        
         
@@ -211,7 +211,7 @@
         height:29% ;
         margin-top: 116%;
         margin-left: -13%;
-        background-color: rgb(37, 220, 20);
+        /*background-color: rgb(37, 220, 20);*/
         z-index: 4;
     }
 
@@ -220,7 +220,7 @@
        
         height: 12%;
         margin-top: 186%;
-        background-color: rgb(118, 139, 0);
+        /*background-color: rgb(118, 139, 0);*/
         z-index: 5;
     }
     .background_6{
@@ -232,14 +232,14 @@
     }
     .background_7{
         margin-top: 3.5%;
-        border: 2px solid rgb(237, 216, 100);
+       /* border: 2px solid rgb(237, 216, 100);*/
         z-index: 7;
     }
     .background_8{
         margin-top:280% ;
         width: 100%;
         height: 2%;
-        border:2px solid cornflowerblue;
+        /*border:2px solid cornflowerblue;*/
         z-index: 8;
     }
 

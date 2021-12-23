@@ -55,7 +55,7 @@
     .nav_container{
         display: flex;
         width: 85%;
-        border:2px solid rgb(255, 149, 27);
+        border:2px solid transparent;
         margin-top: 10%;
         margin-left: 7.5%;
        

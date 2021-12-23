@@ -7,7 +7,7 @@
 }
 .bloghome_content{
     margin-left: 5%; 
-    border:2px solid lightblue;
+    border:2px solid transparent;
     width: 90%;
 }
 /*navbar------------------------------*/
@@ -20,7 +20,7 @@
 }
 .jpicon_container{
     position: absolute;
-    margin-left: -1%;
+    margin-left: 0%;
     cursor: pointer;
 }
 
@@ -45,7 +45,7 @@
 }
 .hlogo_container{
     position: absolute;
-    width: 7.133%;
+    width: 8.133%;
     margin-left: 94.5%;
 }
 .hmenulogob{
@@ -63,7 +63,7 @@
     margin-top: 10%;
 }
 .blog{
-    font-size:'Raleway';
+    
     font-size: 30px;
     font-weight: 800;
 }
@@ -171,7 +171,7 @@
     width: 90%;
     
     margin-left: 5%;
-    border:2px solid palevioletred;
+    border:2px solid transparent;
 
 }
 
@@ -208,7 +208,7 @@
 }
 .bloghome_content{
     margin-left: 10%; 
-    border:2px solid rgb(212, 173, 230);
+    border:2px solid transparent;
     width: 80%;
 }
 /*navbar------------------------------*/
@@ -438,7 +438,7 @@
     width: 80%;
     
     margin-left: 10%;
-    border:2px solid palevioletred;
+    border:2px solid transparent;
 
 }
 

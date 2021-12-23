@@ -105,7 +105,7 @@
   @media(min-width:376px){
     .main_container1{
     
-    border: 2px solid rgb(203, 252, 148);
+    /*border: 2px solid rgb(203, 252, 148);*/
     margin-left:10%;
     margin-top:37%;
     font-size: 18px;
@@ -113,7 +113,7 @@
      
    }
    .text1_p{
-    border: 2px solid rgb(164, 236, 245);
+   /*border: 2px solid rgb(164, 236, 245);*/ 
     margin: 0;
     padding: 0;
     
@@ -126,7 +126,7 @@
     font-weight: 700;
   }
   .text2>p{
-    border: 2px solid rgb(243, 123, 123);
+    /*border: 2px solid rgb(243, 123, 123);*/
     margin-top: 1%;
     margin-left: -1.088%;
     padding: 0;      
@@ -146,7 +146,7 @@
     background: white;
   }
   .text3{
-    border:1px solid blueviolet;
+    /*border:1px solid blueviolet;*/
     width: 100%;
     margin-top: -2%;
     font-weight: 200;
@@ -168,7 +168,7 @@
     
   }
   .main_container2{
-    color: rgb(241, 132, 132);
+    /*color: rgb(241, 132, 132);*/
     width: 837px;
     height: 170px;
     margin-top: 523px;
@@ -206,7 +206,7 @@
   @media(min-width:1439px){
     .main_container1{
     
-      border: 2px solid rgb(252, 210, 148);
+      /*border: 2px solid rgb(252, 210, 148);*/
       margin-left:0%;
       width: 70%;
       margin-top:0%;
@@ -218,7 +218,7 @@
     }
     
     .text1_p{
-      border: 2px solid rgb(164, 236, 245);
+      /*border: 2px solid rgb(164, 236, 245);*/
       margin: 0;
       padding: 0;
       
@@ -231,7 +231,7 @@
       font-weight: 700;
     }
     .text2>p{
-      border: 2px solid rgb(243, 123, 123);
+      /*border: 2px solid rgb(243, 123, 123);*/
       margin-top: -0.533%;
       margin-left: -0.9%;
       padding: 0;      
@@ -251,7 +251,7 @@
       background: white;
     }
     .text3{
-      border:1px solid blueviolet;
+     /*border:1px solid blueviolet;*/ 
       width: 90%;
       margin-top: -5%;
       font-weight: 200;
@@ -272,13 +272,13 @@
       
     }
     .main_container2{
-      color: rgb(241, 132, 132);
+      /*color: rgb(241, 132, 132);*/
       width: 837px;
       height: 170px;
       margin-top: 523px;
       margin-left: 85px;
       margin-right:85px;
-      border:1px solid springgreen;
+      /*border:1px solid springgreen;*/
     }
     
     .main_container3{
@@ -288,7 +288,7 @@
       margin-top:338px;
       margin-left:85px;
       margin-right:85px;
-      border:1px solid yellow;
+      /*border:1px solid yellow;*/
       font-weight: 400; 
       font-size: 20px;
     }

@@ -130,7 +130,7 @@
     .main_home_global{
       width: 83.7%;
       height: 80%;  
-      border:1px solid rgb(38, 1, 245);
+      /*border:1px solid rgb(38, 1, 245);*/
         margin-top:0;
         margin-left: 6.4%;
         
@@ -260,7 +260,7 @@
         .main_home_global{
           width: 87%;
           height: 80%;  
-          border:1px solid rgb(38, 1, 245);
+          /*border:1px solid rgb(38, 1, 245);*/
             margin-top:0;
             margin-left: 7.4%;
             
@@ -324,7 +324,7 @@
             margin-top:3%;
           }
           .textarea{
-            vertical-align: top;
+        
             display : block;
             background-color: black;
             color: white;

@@ -35,12 +35,18 @@ export default function Open(){
                    </div>
 
                </div>
+               
+               
+
+
+
                <div className={styles.bg1_text1}>
-                   <div>
-                       <Link href="/blogHome">
-                         <a>📓Blog</a>
-                       </Link>
-                       
+                   <div className={styles.blog_container}>
+                       <div className={styles.blog_text}>
+                            <Link href="/blogHome">
+                                <a>📓Blog</a>
+                            </Link>
+                       </div>
                        <div className={styles.line1}></div>
 
                        

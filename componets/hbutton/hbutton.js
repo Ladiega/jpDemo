@@ -67,7 +67,7 @@ export default function Hmenu (){
             <Script id="ham_button" strategy="lazyOnload">
               {`
                 let nav = document.querySelector(".nav")
-                
+               
                 document.querySelector(".hamburger").addEventListener("click", e => {
                   e.preventDefault()
                 

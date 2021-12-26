@@ -33,7 +33,7 @@ export default function Iphone(){
             <div className={styles.background_7}>
             <Nav 
             className={styles.nav}
-            />              
+            />               
             </div>
             
             <div className={styles.background_8}>

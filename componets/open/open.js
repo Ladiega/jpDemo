@@ -26,11 +26,11 @@ export default function Open(){
                        <p>buriticá</p>
                    </div>
                    <div className={styles.header_x}>
-                       <button type="button" className={styles.button_x}>
+                       <div  className={styles.button_x}>
                        <Image
                        src={x}
                        />
-                       </button>
+                       </div>
                    
                    </div>
 

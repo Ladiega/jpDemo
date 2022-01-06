@@ -1,13 +1,13 @@
 .menu_open{
     padding:0;
-    margin-top: 0%;
+    margin-top:0%;
     font-family: 'Josefin Sans', sans-serif;
     background: black;
 }
 .background1_container{
     
     width: 100%;
-    background-color: rosybrown;
+    background-color: white;
 }
 .text_container{
    
@@ -25,6 +25,7 @@
  
     width: 93.067%;
     height: 10%;
+    margin-top: -1.5%;;
     margin-left: 3.467%;
 }
 .header_jplogo{
@@ -43,16 +44,21 @@
 }
 .header_x{
     position: absolute;
-    margin-left: 96%;
+    margin-left: 94.2%;
+    
 
    
 }
 .button_x{
     border: none;
     color: black;
-    background-color:white ;
+    background-color:transparent ;
     padding: 2%;
     cursor: pointer;
+
+    
+    
+    
 }
 .bg1_text1{
     display:flex;

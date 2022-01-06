@@ -29,6 +29,7 @@ export default function Hmenu (){
   .hmenu_content{
     background:transparent;
   }
+  }
   .nav {
     position: fixed;
     background:white;
@@ -44,7 +45,7 @@ export default function Hmenu (){
   
   .nav.open {
     right: 0%;
-    transition:.3s;
+    transition:.1s;
   }
   .nav a{
       border:.3px solid salmon;

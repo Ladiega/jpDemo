@@ -17,7 +17,8 @@
 }
 .jplogo_container{
     position: absolute;
-    width: 4.5%;
+    /* original figma width was 24px */
+    width:1.125rem;
     cursor:pointer;
     
   
@@ -25,16 +26,16 @@
 
 .instalogo_container{
     position: absolute;
-    width: 4.5%;
-    margin-left: 75%;
+    width: 1rem;
+    margin-left: 72%;
     cursor:pointer;
 }
 
 
 .twilogo_container{
     position: absolute;
-    margin-left:80% ;
-    width: 4.5%;
+    margin-left:78% ;
+    width: 1em;
     cursor:pointer;
 
 }
@@ -42,15 +43,21 @@
 .hmenulogo_container{
     
     position: absolute;
-    width: 9.5%;
+    width: 1em;
     margin-top:-1%;
+    border: white;
 
-    margin-left:93% ;
+    margin-left:92% ;
 }
 .hmenu_button{
     cursor: pointer;
-    background: none;
+    background:none;
+    /* icon filed/ chance the size button container */
+    width: 2.8em;
+    height:3.438em ;
     border: none;
+    /* border: 2px solid white; */
+   
 }
 
 @media(min-width:376px){

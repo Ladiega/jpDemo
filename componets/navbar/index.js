@@ -5,7 +5,7 @@ import Hmenu from '../hbutton/hbutton'
 
 
 import jplogo from '../../public/img/jpicon.svg'
-import instalogo from '../../public/img/instaicon.svg'
+import instalogo from '../../public/img/navIcons/instaiconw.svg'
 import twilogo from '../../public/img/twicon.svg'
 import hmenulogo from '../../public/img/hmenu.svg'
 
